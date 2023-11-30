@@ -35,3 +35,8 @@ sections:
       stuff, interfaces, annotations processes ... that stuff!
     label: "data-annotation"
     threshold: 0.6
+  - name: "Causality Research"
+    instructions: |
+      This label represents research related to causality applications in research.
+    label: "causal"
+    threshold: 0.7

@@ -1,8 +1,15 @@
 # Arxiv Frontpage 
 
+This project is forked from the original by koaning. The aim is to modify it to use:
+1. Open source annotation framework
+2. Reannotate the training data to match my own interests
+3. Use an LLM to provide paper summaries.
+
 Today's frontpage can be viewed here:
 
-https://koaning.github.io/arxiv-frontpage/
+https://adamkells.github.io/arxiv-frontpage/
+
+The rest of this README matches that of the original repo.
 
 ## What's this? 
 
@@ -10,7 +17,6 @@ This project is an attempt at making my own frontpage of Arxiv. Every day this p
 
 This project is very much a personal one and may certainly see a bunch of changes in the future. But I figured it would be nice to host it publicly so that it may inspire other folks to make their own feed as well. 
 
-The project assumes that you're using [Prodigy](https://prodi.gy) to annotate your data. You're still free to copy the code and change it to use [alternative labelling tools](https://github.com/agermanidis/pigeon) but you will have to make some code changes to get that to work.
 
 ## Contents 
 
