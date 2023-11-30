@@ -40,7 +40,7 @@ def main():
     nlp = spacy.load("en_core_web_sm", disable=["ner", "lemmatizer", "tagger"])
     console.log(f"Starting arxiv search.")
     items = arxiv.Search(
-        query="and",
+        query="data",
         max_results=200,
         sort_by=arxiv.SortCriterion.SubmittedDate,
     )

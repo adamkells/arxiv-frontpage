@@ -334,10 +334,14 @@ class DataStream:
                 text += addition
             return f"<p>{text}</p>"
 
+        def render_paper_summary(item, section):
+            return 0
+
         for item in site_stream:
             for section in item['sections']:
                 editable = item.copy()
                 editable['html'] = render_html(editable, section)
+                editable['gpt-summary'] = render_paper_summary(item, section)
                 sections[section]['content'].append(editable)
 
         for section in sections.keys():
