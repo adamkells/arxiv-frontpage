@@ -19,7 +19,7 @@
           <td>
             <h1 class="text-4xl pt-4 font-bold"><span class="underline">Adam's</span> Arxiv FrontPage</h1>
             <br>
-            <p>Generated on 2023-12-15.</p><br/>
+            <p>Generated on 2023-12-16.</p><br/>
             <p class="text-sm text-gray-500 pt-2">This frontpage is made by scraping arxiv and by runnig a sentence-model that detects if the abstract describes a paper about a topic of interest. One cool feature: it all pretty much runs via Github Actions. </p>
             <br>
           </td>
@@ -299,6 +299,28 @@
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Fair Active Learning in Low-Data Regimes
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>In critical machine learning applications, ensuring fairness is essential to avoid perpetuating social inequities.<span class='px-1 mx-1 bg-yellow-200'>In this work, we address the challenges of reducing bias and improving accuracy in data-scarce environments, where the cost of collecting labeled data prohibits the use of large, labeled datasets. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.744</span></span>In such settings, active learning promises to maximize marginal accuracy gains of small amounts of labeled data.However, existing applications of active learning for fairness fail to deliver on this, typically requiring large labeled datasets, or failing to ensure the desired fairness tolerance is met on the population distribution.   To address such limitations, we introduce an innovative active learning framework that combines an exploration procedure inspired by posterior sampling with a fair classification subroutine.We demonstrate that this framework performs effectively in very data-scarce regimes, maximizing accuracy while satisfying fairness constraints with high probability.We evaluate our proposed approach using well-established real-world benchmark datasets and compare it against state-of-the-art methods, demonstrating its effectiveness in producing fair models, and improvement over existing methods.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08559v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
                 BinGo: Identifying Security Patches in Binary Code with Graph Representation Learning
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
@@ -374,28 +396,6 @@
                 </p>
               <p class="pb-2 pt-2 text-center">
                 <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08007v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Fair Active Learning in Low-Data Regimes
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>In critical machine learning applications, ensuring fairness is essential to avoid perpetuating social inequities.<span class='px-1 mx-1 bg-yellow-200'>In this work, we address the challenges of reducing bias and improving accuracy in data-scarce environments, where the cost of collecting labeled data prohibits the use of large, labeled datasets. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.744</span></span>In such settings, active learning promises to maximize marginal accuracy gains of small amounts of labeled data.However, existing applications of active learning for fairness fail to deliver on this, typically requiring large labeled datasets, or failing to ensure the desired fairness tolerance is met on the population distribution.   To address such limitations, we introduce an innovative active learning framework that combines an exploration procedure inspired by posterior sampling with a fair classification subroutine.We demonstrate that this framework performs effectively in very data-scarce regimes, maximizing accuracy while satisfying fairness constraints with high probability.We evaluate our proposed approach using well-established real-world benchmark datasets and compare it against state-of-the-art methods, demonstrating its effectiveness in producing fair models, and improvement over existing methods.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08559v1' target="_blank">
                   link
                 </a>
               </p>
@@ -1849,6 +1849,116 @@
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Beyond Top-Class Agreement: Using Divergences to Forecast Performance under Distribution Shift
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Knowing if a model will generalize to data 'in the wild' is crucial for safe deployment.To this end, we study model disagreement notions that consider the full predictive distribution - specifically disagreement based on Hellinger distance, Jensen-Shannon and Kullback-Leibler divergence.<span class='px-1 mx-1 bg-yellow-200'>We find that divergence-based scores provide better test error estimates and detection rates on out-of-distribution data compared to their top-1 counterparts. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.636</span></span>Experiments involve standard vision and foundation models.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08033v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Combined Approximations for Uniform Operational Consistent Query Answering
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Operational consistent query answering (CQA) is a recent framework for CQA based on revised definitions of repairs, which are built by applying a sequence of operations (e.g., fact deletions) starting from an inconsistent database until we reach a database that is consistent w.r.t.the given set of constraints.It has been recently shown that there are efficient approximations for computing the percentage of repairs, as well as of sequences of operations leading to repairs, that entail a given query when we focus on primary keys, conjunctive queries, and assuming the query is fixed (i.e., in data complexity).<span class='px-1 mx-1 bg-yellow-200'>However, it has been left open whether such approximations exist when the query is part of the input (i.e., in combined complexity). <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.616</span></span>We show that this is the case when we focus on self-join-free conjunctive queries of bounded generelized hypertreewidth.We also show that it is unlikely that efficient approximation schemes exist once we give up one of the adopted syntactic restrictions, i.e., self-join-freeness or bounding the generelized hypertreewidth.Towards the desired approximation schemes, we introduce a novel counting complexity class, called SpanTL, show that each problem in SpanTL admits an efficient approximation scheme by using a recent approximability result in the context of tree automata, and then place the problems of interest in SpanTL.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08038v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                A Novel Metric for Measuring Data Quality in Classification Applications (extended version)
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Data quality is a key element for building and optimizing good learning models.Despite many attempts to characterize data quality, there is still a need for rigorous formalization and an efficient measure of the quality from available observations.Indeed, without a clear understanding of the training and testing processes, it is hard to evaluate the intrinsic performance of a model.Besides, tools allowing to measure data quality specific to machine learning are still lacking.<span class='px-1 mx-1 bg-yellow-200'>In this paper, we introduce and explain a novel metric to measure data quality. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.633</span></span>This metric is based on the correlated evolution between the classification performance and the deterioration of data.The proposed method has the major advantage of being model-independent.Furthermore, we provide an interpretation of each criterion and examples of assessment levels.<span class='px-1 mx-1 bg-yellow-200'>We confirm the utility of the proposed metric with intensive numerical experiments and detail some illustrative cases with controlled and interpretable qualities. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.659</span></span></p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08066v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Solving Bayesian Inverse Problems With Expensive Likelihoods Using Constrained Gaussian Processes and Active Learning
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Solving inverse problems using Bayesian methods can become prohibitively expensive when likelihood evaluations involve complex and large scale numerical models.A common approach to circumvent this issue is to approximate the forward model or the likelihood function with a surrogate model.But also there, due to limited computational resources, only a few training points are available in many practically relevant cases.Thus, it can be advantageous to model the additional uncertainties of the surrogate in order to incorporate the epistemic uncertainty due to limited data.In this paper, we develop a novel approach to approximate the log likelihood by a constrained Gaussian process based on prior knowledge about its boundedness.<span class='px-1 mx-1 bg-yellow-200'>This improves the accuracy of the surrogate approximation without increasing the number of training samples. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.627</span></span>Additionally, we introduce a formulation to integrate the epistemic uncertainty due to limited training points into the posterior density approximation.This is combined with a state of the art active learning strategy for selecting training points, which allows to approximate posterior densities in higher dimensions very efficiently.<span class='px-1 mx-1 bg-yellow-200'>We demonstrate the fast convergence of our approach for a benchmark problem and infer a random field that is discretized by 30 parameters using only about 1000 model evaluations. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.689</span></span>In a practically relevant example, the parameters of a reduced lung model are calibrated based on flow observations over time and voltage measurements from a coupled electrical impedance tomography simulation.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08085v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                An Incentive Mechanism for Federated Learning Based on Multiple Resource Exchange
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Federated Learning (FL) is a distributed machine learning paradigm that addresses privacy concerns in machine learning and still guarantees high test accuracy.However, achieving the necessary accuracy by having all clients participate in FL is impractical, given the constraints of client local computing resource.In this paper, we introduce a multi-user collaborative computing framework, categorizing users into two roles: model owners (MOs) and data owner (DOs).Without resorting to monetary incentives, an MO can encourage more DOs to join in FL by allowing the DOs to offload extra local computing tasks to the MO for execution.This exchange of "data" for "computing resources" streamlines the incentives for clients to engage more effectively in FL.We formulate the interaction between MO and DOs as an optimization problem, and the objective is to effectively utilize the communication and computing resource of the MO and DOs to minimize the time to complete an FL task.The proposed problem is a mixed integer nonlinear programming (MINLP) with high computational complexity.We first decompose it into two distinct subproblems, namely the client selection problem and the resource allocation problem to segregate the integer variables from the continuous variables.<span class='px-1 mx-1 bg-yellow-200'>Then, an effective iterative algorithm is proposed to solve problem. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.615</span></span>Simulation results demonstrate that the proposed collaborative computing framework can achieve an accuracy of more than 95\% while minimizing the overall time to complete an FL task.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08096v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
                 Machine Learning for the Multi-Dimensional Bin Packing Problem: Literature Review and Empirical Evaluation
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
@@ -1968,160 +2078,6 @@
                 </p>
               <p class="pb-2 pt-2 text-center">
                 <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08358v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                auto-sktime: Automated Time Series Forecasting
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>In today's data-driven landscape, time series forecasting is pivotal in decision-making across various sectors.Yet, the proliferation of more diverse time series data, coupled with the expanding landscape of available forecasting methods, poses significant challenges for forecasters.To meet the growing demand for efficient forecasting, we introduce auto-sktime, a novel framework for automated time series forecasting.The proposed framework uses the power of automated machine learning (AutoML) techniques to automate the creation of the entire forecasting pipeline.The framework employs Bayesian optimization, to automatically construct pipelines from statistical, machine learning (ML) and deep neural network (DNN) models.Furthermore, we propose three essential improvements to adapt AutoML to time series data:First, pipeline templates to account for the different supported forecasting models.<span class='px-1 mx-1 bg-yellow-200'>Second, a novel warm-starting technique to start the optimization from prior optimization runs. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.622</span></span>Third, we adapt multi-fidelity optimizations to make them applicable to a search space containing statistical, ML and DNN models.Experimental results on 64 diverse real-world time series datasets demonstrate the effectiveness and efficiency of the framework, outperforming traditional methods while requiring minimal human involvement.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08528v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                World Models via Policy-Guided Trajectory Diffusion
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>World models are a powerful tool for developing intelligent agents.By predicting the outcome of a sequence of actions, world models enable policies to be optimised via on-policy reinforcement learning (RL) using synthetic data, i.e. in ``in imagination''.Existing world models are autoregressive, and interleave predicting the next state with sampling the next action from the policy.Thus, the prediction error inevitably compounds as the trajectory length grows.In this work, we propose a novel world modelling approach that is not autoregressive and generates entire on-policy trajectories via a single pass through a diffusion model.Our approach, Policy-Guided Trajectory Diffusion (PolyGRAD), leverages a denoising model in addition to the gradient of the action distribution of the policy to diffuse a trajectory of initially random states and actions into an on-policy synthetic trajectory.<span class='px-1 mx-1 bg-yellow-200'>We analyse the capabilities of our approach and demonstrate that it obtains competitive prediction errors to state-of-the-art autoregressive baselines. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.611</span></span>PolyGRAD also enables performant policies to be trained via on-policy RL in imagination.We believe that PolyGRAD introduces a promising paradigm for world modelling with many possible extensions to explore in future work.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08533v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Object-Centric Conformance Alignments with Synchronization (Extended Version)
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Real-world processes operate on objects that are inter-dependent.To accurately reflect the nature of such processes, object-centric process mining techniques are needed, notably conformance checking.However, while the object-centric perspective has recently gained traction, few concrete process mining techniques have been presented so far.Moreover, existing approaches are severely limited in their abilities to keep track of object identity and object dependencies.Consequently, serious problems in logs remain undetected.In this paper, we present a new formalism that combines the key modelling features of two existing approaches, in particular the ability of object-centric Petri nets to capture one-to-many relations and the one of Petri nets with identifiers to compare and synchronize objects based on their identity.We call the resulting formalism 'object-centric Petri nets with identifiers', and define alignments and the conformance checking task for this setting.We propose a conformance checking approach for such nets based on an encoding in satisfiability modulo theories (SMT), and illustrate how it can be effectively used to overcome shortcomings of earlier work.<span class='px-1 mx-1 bg-yellow-200'>To assess its practicality, we perform an evaluation on data from the literature. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.607</span></span></p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08537v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Covering Rectilinear Polygons with Area-Weighted Rectangles
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Representing a polygon using a set of simple shapes has numerous applications in different use-case scenarios.We consider the problem of covering the interior of a rectilinear polygon with holes by a set of area-weighted, axis-aligned rectangles such that the total weight of the rectangles in the cover is minimized.Already the unit-weight case is known to be NP-hard and the general problem has, to the best of our knowledge, not been studied experimentally before.   We show a new basic property of optimal solutions of the weighted problem.<span class='px-1 mx-1 bg-yellow-200'>This allows us to speed up existing algorithms for the unit-weight case, obtain an improved ILP formulation for both the weighted and unweighted problem, and develop several approximation algorithms and heuristics for the weighted case.    <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.622</span></span>All our algorithms are evaluated in a large experimental study on 186 837 polygons combined with six cost functions, which provides evidence that our algorithms are both fast and yield close-to-optimal solutions in practice.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08540v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                G-MEMP: Gaze-Enhanced Multimodal Ego-Motion Prediction in Driving
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Understanding the decision-making process of drivers is one of the keys to ensuring road safety.While the driver intent and the resulting ego-motion trajectory are valuable in developing driver-assistance systems, existing methods mostly focus on the motions of other vehicles.In contrast, we focus on inferring the ego trajectory of a driver's vehicle using their gaze data.For this purpose, we first collect a new dataset, GEM, which contains high-fidelity ego-motion videos paired with drivers' eye-tracking data and GPS coordinates.Next, we develop G-MEMP, a novel multimodal ego-trajectory prediction network that combines GPS and video input with gaze data.We also propose a new metric called Path Complexity Index (PCI) to measure the trajectory complexity.<span class='px-1 mx-1 bg-yellow-200'>We perform extensive evaluations of the proposed method on both GEM and DR(eye)VE, an existing benchmark dataset. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.652</span></span><span class='px-1 mx-1 bg-yellow-200'>The results show that G-MEMP significantly outperforms state-of-the-art methods in both benchmarks. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.675</span></span>Furthermore, ablation studies demonstrate over 20% improvement in average displacement using gaze data, particularly in challenging driving scenarios with a high PCI.The data, code, and models can be found at https://eth-ait.github.io/g-memp/.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08558v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Fair Active Learning in Low-Data Regimes
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>In critical machine learning applications, ensuring fairness is essential to avoid perpetuating social inequities.In this work, we address the challenges of reducing bias and improving accuracy in data-scarce environments, where the cost of collecting labeled data prohibits the use of large, labeled datasets.In such settings, active learning promises to maximize marginal accuracy gains of small amounts of labeled data.However, existing applications of active learning for fairness fail to deliver on this, typically requiring large labeled datasets, or failing to ensure the desired fairness tolerance is met on the population distribution.   To address such limitations, we introduce an innovative active learning framework that combines an exploration procedure inspired by posterior sampling with a fair classification subroutine.We demonstrate that this framework performs effectively in very data-scarce regimes, maximizing accuracy while satisfying fairness constraints with high probability.<span class='px-1 mx-1 bg-yellow-200'>We evaluate our proposed approach using well-established real-world benchmark datasets and compare it against state-of-the-art methods, demonstrating its effectiveness in producing fair models, and improvement over existing methods. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.735</span></span></p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08559v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2023-12-13</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                PhasePerturbation: Speech Data Augmentation via Phase Perturbation for Automatic Speech Recognition
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Most of the current speech data augmentation methods operate on either the raw waveform or the amplitude spectrum of speech.In this paper, we propose a novel speech data augmentation method called PhasePerturbation that operates dynamically on the phase spectrum of speech.Instead of statically rotating a phase by a constant degree, PhasePerturbation utilizes three dynamic phase spectrum operations, i.e., a randomization operation, a frequency masking operation, and a temporal masking operation, to enhance the diversity of speech data.We conduct experiments on wav2vec2.0 pre-trained ASR models by fine-tuning them with the PhasePerturbation augmented TIMIT corpus.<span class='px-1 mx-1 bg-yellow-200'>The experimental results demonstrate 10.9\% relative reduction in the word error rate (WER) compared with the baseline model fine-tuned without any augmentation operation. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.692</span></span>Furthermore, the proposed method achieves additional improvements (12.9\% and 15.9\%) in WER by complementing the Vocal Tract Length Perturbation (VTLP) and the SpecAug, which are both amplitude spectrum-based augmentation methods.The results highlight the capability of PhasePerturbation to improve the current amplitude spectrum-based augmentation methods.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2312.08571v1' target="_blank">
                   link
                 </a>
               </p>
