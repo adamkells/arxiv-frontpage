@@ -33,5 +33,15 @@ sections:
   - name: "Causality Research"
     instructions: |
       This label represents research related to causality applications in research.
-    label: "causal"
-    threshold: 0.7
+    label: "causality"
+    threshold: 0.5
+  - name: "Explainability Research"
+    instructions: |
+      This label represents research related to explainability applications in research.
+    label: "explainability"
+    threshold: 0.5
+  - name: "Ethics Research"
+    instructions: |
+      This label represents research related to ethics applications in research.
+    label: "ethical-ai"
+    threshold: 0.5
