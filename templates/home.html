@@ -28,36 +28,59 @@
         <tr>
           <td></td>
           <td>
-            <!doctype html>
-            <html>
-            <head>
-              <!-- Your existing code here -->
-            </head>
-            <body>
-              <div class="relative mx-auto h-full max-w-2xl text-md">
-                <table class="table-auto">
-                  <tbody>
-                    <tr>
-                      <td></td>
-                      <td>
-                        <!-- Your existing code here -->
-                      </td>
-                    </tr>
-                    {%- for section in sections -%}
-                    <tr>
-                      <td></td>
-                      <td>
-                        <div x-data="{ open: false }">
-                          <button @click="open = !open" class="text-blue-500">Toggle Section</button>
-                          <div x-show="open" class="mt-4">
-                            <!-- Content of the section goes here -->
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    {%- endfor -%}
-                  </tbody>
-                </table>
-              </div>
-            </body>
-            </html>
+            <h2 class="text-2xl tracking-tight pt-4 font-bold">{{section['name']}}</h2>
+          </td>
+        </tr>
+        {%- for content in section['content'] -%}
+        <tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>{{content['created']}}</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                {{content['title']}}
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2">
+                  {%- for key in content['cats'] -%}
+                  <span class='text-black px-2 mx-1 bg-blue-200 text-sm'>cls:{{key}}: 0.{{(content['cats'][key] * 1000) | int | round}}</span>
+                  {%- endfor -%}
+                </div>
+                <p class="pt-2">
+                  {{content['html']}}
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='{{content["url"]}}' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      {%- endfor -%}  
+      {%- endfor -%}
+    </tbody>
+  </table>
+  <br><br>
+</div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      // customised options
+      // • auto-render specific keys, e.g.:
+      delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '$', right: '$', display: false},
+      {left: '\\(', right: '\\)', display: false},
+      {left: '\\[', right: '\\]', display: true}
+      ],
+      // • rendering keys, e.g.:
+      throwOnError : false
+    });
+  });
+</script>
+</body>
+</html>
