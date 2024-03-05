@@ -19,7 +19,7 @@
           <td>
             <h1 class="text-4xl pt-4 font-bold"><span class="underline">Adam's</span> Arxiv FrontPage</h1>
             <br>
-            <p>Generated on 2024-03-04.</p><br/>
+            <p>Generated on 2024-03-05.</p><br/>
             <p class="text-sm text-gray-500 pt-2">This frontpage is made by scraping arxiv and by runnig a sentence-model that detects if the abstract describes a paper about a topic of interest. One cool feature: it all pretty much runs via Github Actions. </p>
             <br>
           </td>
@@ -29,6 +29,28 @@
             <h2 class="text-2xl tracking-tight pt-4 font-bold">New Datasets</h2>
           </td>
         </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-03-02</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                TUMTraf V2X Cooperative Perception Dataset
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Cooperative perception offers several benefits for enhancing the capabilities of autonomous vehicles and improving road safety.Using roadside sensors in addition to onboard sensors increases reliability and extends the sensor range.External sensors offer higher situational awareness for automated vehicles and prevent occlusions.We propose CoopDet3D, a cooperative multi-modal fusion model, and TUMTraf-V2X, a perception dataset, for the cooperative 3D object detection and tracking task.<span class='px-1 mx-1 bg-yellow-200'>Our dataset contains 2,000 labeled point clouds and 5,000 labeled images from five roadside and four onboard sensors. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.903</span></span><span class='px-1 mx-1 bg-yellow-200'>It includes 30k 3D boxes with track IDs and precise GPS and IMU data. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.717</span></span>We labeled eight categories and covered occlusion scenarios with challenging driving maneuvers, like traffic violations, near-miss events, overtaking, and U-turns.Through multiple experiments, we show that our CoopDet3D camera-LiDAR fusion model achieves an increase of +14.36 3D mAP compared to a vehicle camera-LiDAR fusion model.<span class='px-1 mx-1 bg-yellow-200'>Finally, we make our dataset, model, labeling tool, and dev-kit publicly available on our website: https://tum-traffic-dataset.github.io/tumtraf-v2x. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.909</span></span></p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2403.01316v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
           <td class="inline-block">
             <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-02-29</p>
           </td>
@@ -519,28 +541,6 @@
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Deep Umbra: A Generative Approach for Sunlight Access Computation in Urban Spaces
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Sunlight and shadow play critical roles in how urban spaces are utilized, thrive, and grow.While access to sunlight is essential to the success of urban environments, shadows can provide shaded places to stay during the hot seasons, mitigate heat island effect, and increase pedestrian comfort levels.Properly quantifying sunlight access and shadows in large urban environments is key in tackling some of the important challenges facing cities today.In this paper, we propose Deep Umbra, a novel computational framework that enables the quantification of sunlight access and shadows at a global scale.Our framework is based on a conditional generative adversarial network that considers the physical form of cities to compute high-resolution spatial information of accumulated sunlight access for the different seasons of the year.We use data from seven different cities to train our model, and show, through an extensive set of experiments, its low overall RMSE (below 0.1) as well as its extensibility to cities that were not part of the training set.<span class='px-1 mx-1 bg-yellow-200'>Additionally, we contribute a set of case studies and a comprehensive dataset with sunlight access information for more than 100 cities across six continents of the world. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.834</span></span>Deep Umbra is available at https://urbantk.org/shadows.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2402.17169v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-02-27</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
                 LiveHPS: LiDAR-based Scene-level Human Pose and Shape Estimation in Free Environment
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
@@ -770,28 +770,6 @@
                 </p>
               <p class="pb-2 pt-2 text-center">
                 <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2402.17944v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-02-26</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Generative Pretrained Hierarchical Transformer for Time Series Forecasting
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Recent efforts have been dedicated to enhancing time series forecasting accuracy by introducing advanced network architectures and self-supervised pretraining strategies.Nevertheless, existing approaches still exhibit two critical drawbacks.Firstly, these methods often rely on a single dataset for training, limiting the model's generalizability due to the restricted scale of the training data.Secondly, the one-step generation schema is widely followed, which necessitates a customized forecasting head and overlooks the temporal dependencies in the output series, and also leads to increased training costs under different horizon length settings.   To address these issues, we propose a novel generative pretrained hierarchical transformer architecture for forecasting, named GPHT.There are two aspects of key designs in GPHT.<span class='px-1 mx-1 bg-yellow-200'>On the one hand, we advocate for constructing a mixed dataset for pretraining our model, comprising various datasets from diverse data scenarios. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.738</span></span>This approach significantly expands the scale of training data, allowing our model to uncover commonalities in time series data and facilitating improved transfer to specific datasets.On the other hand, GPHT employs an auto-regressive forecasting approach under the channel-independent assumption, effectively modeling temporal dependencies in the output series.Importantly, no customized forecasting head is required, enabling a single model to forecast at arbitrary horizon settings.We conduct sufficient experiments on eight datasets with mainstream self-supervised pretraining models and supervised models.The results demonstrated that GPHT surpasses the baseline models across various fine-tuning and zero/few-shot learning settings in the traditional long-term forecasting task, providing support for verifying the feasibility of pretrained time series large models.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2402.16516v1' target="_blank">
                   link
                 </a>
               </p>
@@ -1161,6 +1139,28 @@
             <h2 class="text-2xl tracking-tight pt-4 font-bold">Benchmarks</h2>
           </td>
         </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-03-02</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Mitigating the Bias in the Model for Continual Test-Time Adaptation
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Continual Test-Time Adaptation (CTA) is a challenging task that aims to adapt a source pre-trained model to continually changing target domains.In the CTA setting, a model does not know when the target domain changes, thus facing a drastic change in the distribution of streaming inputs during the test-time.The key challenge is to keep adapting the model to the continually changing target domains in an online manner.We find that a model shows highly biased predictions as it constantly adapts to the chaining distribution of the target data.It predicts certain classes more often than other classes, making inaccurate over-confident predictions.This paper mitigates this issue to improve performance in the CTA scenario.To alleviate the bias issue, we make class-wise exponential moving average target prototypes with reliable target samples and exploit them to cluster the target features class-wisely.Moreover, we aim to align the target distributions to the source distribution by anchoring the target feature to its corresponding source prototype.<span class='px-1 mx-1 bg-yellow-200'>With extensive experiments, our proposed method achieves noteworthy performance gain when applied on top of existing CTA methods without substantial adaptation time overhead. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.682</span></span></p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2403.01344v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
           <td class="inline-block">
             <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-02-29</p>
           </td>
@@ -1792,28 +1792,6 @@
                 </p>
               <p class="pb-2 pt-2 text-center">
                 <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2402.18742v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-02-27</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Dual-Space Optimization: Improved Molecule Sequence Design by Latent Prompt Transformer
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Designing molecules with desirable properties, such as drug-likeliness and high binding affinities towards protein targets, is a challenging problem.In this paper, we propose the Dual-Space Optimization (DSO) method that integrates latent space sampling and data space selection to solve this problem.DSO iteratively updates a latent space generative model and a synthetic dataset in an optimization process that gradually shifts the generative model and the synthetic data towards regions of desired property values.Our generative model takes the form of a Latent Prompt Transformer (LPT) where the latent vector serves as the prompt of a causal transformer.<span class='px-1 mx-1 bg-yellow-200'>Our extensive experiments demonstrate effectiveness of the proposed method, which sets new performance benchmarks across single-objective, multi-objective and constrained molecule design tasks. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.641</span></span></p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2402.17179v1' target="_blank">
                   link
                 </a>
               </p>
@@ -3330,28 +3308,6 @@
                 </p>
               <p class="pb-2 pt-2 text-center">
                 <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2402.12187v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-02-18</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                The Effectiveness of Random Forgetting for Robust Generalization
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p><span class='px-1 mx-1 bg-yellow-200'>Deep neural networks are susceptible to adversarial attacks, which can compromise their performance and accuracy. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.55</span></span>Adversarial Training (AT) has emerged as a popular approach for protecting neural networks against such attacks.However, a key challenge of AT is robust overfitting, where the network's robust performance on test data deteriorates with further training, thus hindering generalization.Motivated by the concept of active forgetting in the brain, we introduce a novel learning paradigm called "Forget to Mitigate Overfitting (FOMO)".FOMO alternates between the forgetting phase, which randomly forgets a subset of weights and regulates the model's information through weight reinitialization, and the relearning phase, which emphasizes learning generalizable features.Our experiments on benchmark datasets and adversarial attacks show that FOMO alleviates robust overfitting by significantly reducing the gap between the best and last robust test accuracy while improving the state-of-the-art robustness.Furthermore, FOMO provides a better trade-off between standard and robust accuracy, outperforming baseline adversarial methods.Finally, our framework is robust to AutoAttacks and increases generalization in many real-world scenarios.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2402.11733v1' target="_blank">
                   link
                 </a>
               </p>
