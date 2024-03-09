@@ -19,7 +19,7 @@
           <td>
             <h1 class="text-4xl pt-4 font-bold"><span class="underline">Adam's</span> Arxiv FrontPage</h1>
             <br>
-            <p>Generated on 2024-03-08.</p><br/>
+            <p>Generated on 2024-03-09.</p><br/>
             <p class="text-sm text-gray-500 pt-2">This frontpage is made by scraping arxiv and by runnig a sentence-model that detects if the abstract describes a paper about a topic of interest. One cool feature: it all pretty much runs via Github Actions. </p>
             <br>
           </td>
@@ -3408,6 +3408,28 @@
             <h2 class="text-2xl tracking-tight pt-4 font-bold">Ethics Research</h2>
           </td>
         </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-03-07</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                A General Calibrated Regret Metric for Detecting and Mitigating Human-Robot Interaction Failures
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p><span class='px-1 mx-1 bg-yellow-200'>Robot decision-making increasingly relies on expressive data-driven human prediction models when operating around people. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.511</span></span>While these models are known to suffer from prediction errors in out-of-distribution interactions, not all prediction errors equally impact downstream robot performance.We identify that the mathematical notion of regret precisely characterizes the degree to which incorrect predictions of future interaction outcomes degraded closed-loop robot performance.However, canonical regret measures are poorly calibrated across diverse deployment interactions.We extend the canonical notion of regret by deriving a calibrated regret metric that generalizes from absolute reward space to probability space.With this transformation, our metric removes the need for explicit reward functions to calculate the robot's regret, enables fairer comparison of interaction anomalies across disparate deployment contexts, and facilitates targetted dataset construction of "system-level" prediction failures.We experimentally quantify the value of this high-regret interaction data for aiding the robot in improving its downstream decision-making.In a suite of closed-loop autonomous driving simulations, we find that fine-tuning ego-conditioned behavior predictors exclusively on high-regret human-robot interaction data can improve the robot's overall re-deployment performance with significantly (77%) less data.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2403.04745v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
           <td class="inline-block">
             <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-03-07</p>
           </td>
