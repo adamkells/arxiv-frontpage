@@ -19,7 +19,7 @@
           <td>
             <h1 class="text-4xl pt-4 font-bold"><span class="underline">Adam's</span> Arxiv FrontPage</h1>
             <br>
-            <p>Generated on 2024-04-06.</p><br/>
+            <p>Generated on 2024-04-07.</p><br/>
             <p class="text-sm text-gray-500 pt-2">This frontpage is made by scraping arxiv and by runnig a sentence-model that detects if the abstract describes a paper about a topic of interest. One cool feature: it all pretty much runs via Github Actions. </p>
             <br>
           </td>
@@ -1303,50 +1303,6 @@
                 </p>
               <p class="pb-2 pt-2 text-center">
                 <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2403.14233v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-03-20</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                A Unified Optimal Transport Framework for Cross-Modal Retrieval with Noisy Labels
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Cross-modal retrieval (CMR) aims to establish interaction between different modalities, among which supervised CMR is emerging due to its flexibility in learning semantic category discrimination.Despite the remarkable performance of previous supervised CMR methods, much of their success can be attributed to the well-annotated data.However, even for unimodal data, precise annotation is expensive and time-consuming, and it becomes more challenging with the multimodal scenario.In practice, massive multimodal data are collected from the Internet with coarse annotation, which inevitably introduces noisy labels.<span class='px-1 mx-1 bg-yellow-200'>Training with such misleading labels would bring two key challenges -- enforcing the multimodal samples to \emph{align incorrect semantics} and \emph{widen the heterogeneous gap}, resulting in poor retrieval performance. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.66</span></span>To tackle these challenges, this work proposes UOT-RCL, a Unified framework based on Optimal Transport (OT) for Robust Cross-modal Retrieval.First, we propose a semantic alignment based on partial OT to progressively correct the noisy labels, where a novel cross-modal consistent cost function is designed to blend different modalities and provide precise transport cost.Second, to narrow the discrepancy in multi-modal data, an OT-based relation alignment is proposed to infer the semantic-level cross-modal matching.Both of these two components leverage the inherent correlation among multi-modal data to facilitate effective cost function.The experiments on three widely-used cross-modal retrieval datasets demonstrate that our UOT-RCL surpasses the state-of-the-art approaches and significantly improves the robustness against noisy labels.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2403.13480v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-03-20</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Have You Poisoned My Data? Defending Neural Networks against Data Poisoning
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>The unprecedented availability of training data fueled the rapid development of powerful neural networks in recent years.However, the need for such large amounts of data leads to potential threats such as poisoning attacks: adversarial manipulations of the training data aimed at compromising the learned model to achieve a given adversarial goal.   <span class='px-1 mx-1 bg-yellow-200'>This paper investigates defenses against clean-label poisoning attacks and proposes a novel approach to detect and filter poisoned datapoints in the transfer learning setting. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.679</span></span>We define a new characteristic vector representation of datapoints and show that it effectively captures the intrinsic properties of the data distribution.Through experimental analysis, we demonstrate that effective poisons can be successfully differentiated from clean points in the characteristic vector space.We thoroughly evaluate our proposed approach and compare it to existing state-of-the-art defenses using multiple architectures, datasets, and poison budgets.Our evaluation shows that our proposal outperforms existing approaches in defense rate and final trained model performance across all experimental settings.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2403.13523v1' target="_blank">
                   link
                 </a>
               </p>
