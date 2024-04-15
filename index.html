@@ -19,7 +19,7 @@
           <td>
             <h1 class="text-4xl pt-4 font-bold"><span class="underline">Adam's</span> Arxiv FrontPage</h1>
             <br>
-            <p>Generated on 2024-04-14.</p><br/>
+            <p>Generated on 2024-04-15.</p><br/>
             <p class="text-sm text-gray-500 pt-2">This frontpage is made by scraping arxiv and by runnig a sentence-model that detects if the abstract describes a paper about a topic of interest. One cool feature: it all pretty much runs via Github Actions. </p>
             <br>
           </td>
@@ -29,6 +29,94 @@
             <h2 class="text-2xl tracking-tight pt-4 font-bold">New Datasets</h2>
           </td>
         </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-12</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Scalability in Building Component Data Annotation: Enhancing Facade Material Classification with Synthetic Data
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Computer vision models trained on Google Street View images can create material cadastres.However, current approaches need manually annotated datasets that are difficult to obtain and often have class imbalance.To address these challenges, this paper fine-tuned a Swin Transformer model on a synthetic dataset generated with DALL-E and compared the performance to a similar manually annotated dataset.<span class='px-1 mx-1 bg-yellow-200'>Although manual annotation remains the gold standard, the synthetic dataset performance demonstrates a reasonable alternative. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.775</span></span>The findings will ease annotation needed to develop material cadastres, offering architects insights into opportunities for material reuse, thus contributing to the reduction of demolition waste.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.08557v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-12</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                FusionPortableV2: A Unified Multi-Sensor Dataset for Generalized SLAM Across Diverse Platforms and Scalable Environments
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Simultaneous Localization and Mapping (SLAM) technology has been widely applied in various robotic scenarios, from rescue operations to autonomous driving.However, the generalization of SLAM algorithms remains a significant challenge, as current datasets often lack scalability in terms of platforms and environments.<span class='px-1 mx-1 bg-yellow-200'>To address this limitation, we present FusionPortableV2, a multi-sensor SLAM dataset featuring notable sensor diversity, varied motion patterns, and a wide range of environmental scenarios. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.73</span></span><span class='px-1 mx-1 bg-yellow-200'>Our dataset comprises $27$ sequences, spanning over $2.5$ hours and collected from four distinct platforms: a handheld suite, wheeled and legged robots, and vehicles. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.96</span></span>These sequences cover diverse settings, including buildings, campuses, and urban areas, with a total length of $38.7km$. Additionally, the dataset includes ground-truth (GT) trajectories and RGB point cloud maps covering approximately $0.3km^2$. To validate the utility of our dataset in advancing SLAM research, we assess several state-of-the-art (SOTA) SLAM algorithms.Furthermore, we demonstrate the dataset's broad applicability beyond traditional SLAM tasks by investigating its potential for monocular depth estimation.<span class='px-1 mx-1 bg-yellow-200'>The complete dataset, including sensor data, GT, and calibration details, is accessible at https://fusionportable.github.io/dataset/fusionportable_v2. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.908</span></span></p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.08563v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-12</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                FashionFail: Addressing Failure Cases in Fashion Object Detection and Segmentation
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>In the realm of fashion object detection and segmentation for online shopping images, existing state-of-the-art fashion parsing models encounter limitations, particularly when exposed to non-model-worn apparel and close-up shots.To address these failures, we introduce FashionFail; a new fashion dataset with e-commerce images for object detection and segmentation.<span class='px-1 mx-1 bg-yellow-200'>The dataset is efficiently curated using our novel annotation tool that leverages recent foundation models. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.911</span></span>The primary objective of FashionFail is to serve as a test bed for evaluating the robustness of models.Our analysis reveals the shortcomings of leading models, such as Attribute-Mask R-CNN and Fashionformer.Additionally, we propose a baseline approach using naive data augmentation to mitigate common failure cases and improve model robustness.Through this work, we aim to inspire and support further research in fashion item detection and segmentation for industrial applications.The dataset, annotation tool, code, and models are available at \url{https://rizavelioglu.github.io/fashionfail/}.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.08582v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-12</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                COCONut: Modernizing COCO Segmentation
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>In recent decades, the vision community has witnessed remarkable progress in visual recognition, partially owing to advancements in dataset benchmarks.Notably, the established COCO benchmark has propelled the development of modern detection and segmentation systems.However, the COCO segmentation benchmark has seen comparatively slow improvement over the last decade.Originally equipped with coarse polygon annotations for thing instances, it gradually incorporated coarse superpixel annotations for stuff regions, which were subsequently heuristically amalgamated to yield panoptic segmentation annotations.These annotations, executed by different groups of raters, have resulted not only in coarse segmentation masks but also in inconsistencies between segmentation types.In this study, we undertake a comprehensive reevaluation of the COCO segmentation annotations.<span class='px-1 mx-1 bg-yellow-200'>By enhancing the annotation quality and expanding the dataset to encompass 383K images with more than 5.18M panoptic masks, we introduce COCONut, the COCO Next Universal segmenTation dataset. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.77</span></span>COCONut harmonizes segmentation annotations across semantic, instance, and panoptic segmentation with meticulously crafted high-quality masks, and establishes a robust benchmark for all segmentation tasks.To our knowledge, COCONut stands as the inaugural large-scale universal segmentation dataset, verified by human raters.We anticipate that the release of COCONut will significantly contribute to the community's ability to assess the progress of novel neural networks.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.08639v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
           <td class="inline-block">
             <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-11</p>
           </td>
@@ -585,138 +673,6 @@
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                EcoVerse: An Annotated Twitter Dataset for Eco-Relevance Classification, Environmental Impact Analysis, and Stance Detection
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Anthropogenic ecological crisis constitutes a significant challenge that all within the academy must urgently face, including the Natural Language Processing (NLP) community.While recent years have seen increasing work revolving around climate-centric discourse, crucial environmental and ecological topics outside of climate change remain largely unaddressed, despite their prominent importance.Mainstream NLP tasks, such as sentiment analysis, dominate the scene, but there remains an untouched space in the literature involving the analysis of environmental impacts of certain events and practices.<span class='px-1 mx-1 bg-yellow-200'>To address this gap, this paper presents EcoVerse, an annotated English Twitter dataset of 3,023 tweets spanning a wide spectrum of environmental topics. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.827</span></span>We propose a three-level annotation scheme designed for Eco-Relevance Classification, Stance Detection, and introducing an original approach for Environmental Impact Analysis.<span class='px-1 mx-1 bg-yellow-200'>We detail the data collection, filtering, and labeling process that led to the creation of the dataset. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.921</span></span>Remarkable Inter-Annotator Agreement indicates that the annotation scheme produces consistent annotations of high quality.Subsequent classification experiments using BERT-based models, including ClimateBERT, are presented.These yield encouraging results, while also indicating room for a model specifically tailored for environmental texts.<span class='px-1 mx-1 bg-yellow-200'>The dataset is made freely available to stimulate further research. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.85</span></span></p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.05133v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-08</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Progressive Alignment with VLM-LLM Feature to Augment Defect Classification for the ASE Dataset
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Traditional defect classification approaches are facing with two barriers.(1) Insufficient training data and unstable data quality.Collecting sufficient defective sample is expensive and time-costing, consequently leading to dataset variance.It introduces the difficulty on recognition and learning.(2) Over-dependence on visual modality.When the image pattern and texture is monotonic for all defect classes in a given dataset, the performance of conventional AOI system cannot be guaranteed.In scenarios where image quality is compromised due to mechanical failures or when defect information is inherently difficult to discern, the performance of deep models cannot be guaranteed.A main question is, "how to solve those two problems when they occur at the same time?"The feasible strategy is to explore another feature within dataset and combine an eminent vision-language model (VLM) and Large-Language model (LLM) with their astonishing zero-shot capability.<span class='px-1 mx-1 bg-yellow-200'>In this work, we propose the special ASE dataset, including rich data description recorded on image, for defect classification, but the defect feature is uneasy to learn directly. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.857</span></span>Secondly, We present the prompting for VLM-LLM against defect classification with the proposed ASE dataset to activate extra-modality feature from images to enhance performance.Then, We design the novel progressive feature alignment (PFA) block to refine image-text feature to alleviate the difficulty of alignment under few-shot scenario.Finally, the proposed Cross-modality attention fusion (CMAF) module can effectively fuse different modality feature.Experiment results have demonstrated our method's effectiveness over several defect classification methods for the ASE dataset.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.05183v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-08</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Product Description and QA Assisted Self-Supervised Opinion Summarization
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>In e-commerce, opinion summarization is the process of summarizing the consensus opinions found in product reviews.However, the potential of additional sources such as product description and question-answers (QA) has been considered less often.Moreover, the absence of any supervised training data makes this task challenging.To address this, we propose a novel synthetic dataset creation (SDC) strategy that leverages information from reviews as well as additional sources for selecting one of the reviews as a pseudo-summary to enable supervised training.Our Multi-Encoder Decoder framework for Opinion Summarization (MEDOS) employs a separate encoder for each source, enabling effective selection of information while generating the summary.<span class='px-1 mx-1 bg-yellow-200'>For evaluation, due to the unavailability of test sets with additional sources, we extend the Amazon, Oposum+, and Flipkart test sets and leverage ChatGPT to annotate summaries. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.788</span></span>Experiments across nine test sets demonstrate that the combination of our SDC approach and MEDOS model achieves on average a 14.5% improvement in ROUGE-1 F1 over the SOTA.Moreover, comparative analysis underlines the significance of incorporating additional sources for generating more informative summaries.Human evaluations further indicate that MEDOS scores relatively higher in coherence and fluency with 0.41 and 0.5 (-1 to 1) respectively, compared to existing models.To the best of our knowledge, we are the first to generate opinion summaries leveraging additional sources in a self-supervised setting.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.05243v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-08</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Unsupervised Band Selection Using Fused HSI and LiDAR Attention Integrating With Autoencoder
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Band selection in hyperspectral imaging (HSI) is critical for optimising data processing and enhancing analytical accuracy.Traditional approaches have predominantly concentrated on analysing spectral and pixel characteristics within individual bands independently.These approaches overlook the potential benefits of integrating multiple data sources, such as Light Detection and Ranging (LiDAR), and is further challenged by the limited availability of labeled data in HSI processing, which represents a significant obstacle.To address these challenges, this paper introduces a novel unsupervised band selection framework that incorporates attention mechanisms and an Autoencoder for reconstruction-based band selection.Our methodology distinctively integrates HSI with LiDAR data through an attention score, using a convolutional Autoencoder to process the combined feature mask.This fusion effectively captures essential spatial and spectral features and reduces redundancy in hyperspectral datasets.A comprehensive comparative analysis of our innovative fused band selection approach is performed against existing unsupervised band selection and fusion models.<span class='px-1 mx-1 bg-yellow-200'>We used data sets such as Houston 2013, Trento, and MUUFLE for our experiments. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.717</span></span>The results demonstrate that our method achieves superior classification accuracy and significantly outperforms existing models.This enhancement in HSI band selection, facilitated by the incorporation of LiDAR features, underscores the considerable advantages of integrating features from different sources.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.05258v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-08</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Deep Optics for Video Snapshot Compressive Imaging
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Video snapshot compressive imaging (SCI) aims to capture a sequence of video frames with only a single shot of a 2D detector, whose backbones rest in optical modulation patterns (also known as masks) and a computational reconstruction algorithm.Advanced deep learning algorithms and mature hardware are putting video SCI into practical applications.Yet, there are two clouds in the sunshine of SCI: i) low dynamic range as a victim of high temporal multiplexing, and ii) existing deep learning algorithms' degradation on real system.To address these challenges, this paper presents a deep optics framework to jointly optimize masks and a reconstruction network.Specifically, we first propose a new type of structural mask to realize motion-aware and full-dynamic-range measurement.Considering the motion awareness property in measurement domain, we develop an efficient network for video SCI reconstruction using Transformer to capture long-term temporal dependencies, dubbed Res2former.Moreover, sensor response is introduced into the forward model of video SCI to guarantee end-to-end model training close to real system.Finally, we implement the learned structural masks on a digital micro-mirror device.Experimental results on synthetic and real data validate the effectiveness of the proposed framework.We believe this is a milestone for real-world video SCI.<span class='px-1 mx-1 bg-yellow-200'>The source code and data are available at https://github.com/pwangcs/DeepOpticsSCI. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.813</span></span></p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.05274v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-08</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Human Detection from 4D Radar Data in Low-Visibility Field Conditions
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Autonomous driving technology is increasingly being used on public roads and in industrial settings such as mines.While it is essential to detect pedestrians, vehicles, or other obstacles, adverse field conditions negatively affect the performance of classical sensors such as cameras or lidars.Radar, on the other hand, is a promising modality that is less affected by, e.g., dust, smoke, water mist or fog.In particular, modern 4D imaging radars provide target responses across the range, vertical angle, horizontal angle and Doppler velocity dimensions.We propose TMVA4D, a CNN architecture that leverages this 4D radar modality for semantic segmentation.The CNN is trained to distinguish between the background and person classes based on a series of 2D projections of the 4D radar data that include the elevation, azimuth, range, and Doppler velocity dimensions.<span class='px-1 mx-1 bg-yellow-200'>We also outline the process of compiling a novel dataset consisting of data collected in industrial settings with a car-mounted 4D radar and describe how the ground-truth labels were generated from reference thermal images. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.866</span></span>Using TMVA4D on this dataset, we achieve an mIoU score of 78.2% and an mDice score of 86.1%, evaluated on the two classes background and person</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.05307v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-08</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
                 CDAD-Net: Bridging Domain Gaps in Generalized Category Discovery
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
@@ -1162,28 +1118,6 @@
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Efficient Test-Time Adaptation of Vision-Language Models
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Test-time adaptation with pre-trained vision-language models has attracted increasing attention for tackling distribution shifts during the test time.Though prior studies have achieved very promising performance, they involve intensive computation which is severely unaligned with test-time adaptation.We design TDA, a training-free dynamic adapter that enables effective and efficient test-time adaptation with vision-language models.TDA works with a lightweight key-value cache that maintains a dynamic queue with few-shot pseudo labels as values and the corresponding test-sample features as keys.Leveraging the key-value cache, TDA allows adapting to test data gradually via progressive pseudo label refinement which is super-efficient without incurring any backpropagation.<span class='px-1 mx-1 bg-yellow-200'>In addition, we introduce negative pseudo labeling that alleviates the adverse impact of pseudo label noises by assigning pseudo labels to certain negative classes when the model is uncertain about its pseudo label predictions. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.766</span></span>Extensive experiments over two benchmarks demonstrate TDA's superior effectiveness and efficiency as compared with the state-of-the-art.The code has been released in \url{https://kdiaaa.github.io/tda/}.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2403.18293v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-03-27</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
                 Backpropagation-free Network for 3D Test-time Adaptation
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
@@ -1227,6 +1161,28 @@
             <h2 class="text-2xl tracking-tight pt-4 font-bold">Benchmarks</h2>
           </td>
         </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-12</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Advanced wood species identification based on multiple anatomical sections and using deep feature transfer and fusion
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>In recent years, we have seen many advancements in wood species identification.Methods like DNA analysis, Near Infrared (NIR) spectroscopy, and Direct Analysis in Real Time (DART) mass spectrometry complement the long-established wood anatomical assessment of cell and tissue morphology.However, most of these methods have some limitations such as high costs, the need for skilled experts for data interpretation, and the lack of good datasets for professional reference.Therefore, most of these methods, and certainly the wood anatomical assessment, may benefit from tools based on Artificial Intelligence.In this paper, we apply two transfer learning techniques with Convolutional Neural Networks (CNNs) to a multi-view Congolese wood species dataset including sections from different orientations and viewed at different microscopic magnifications.We explore two feature extraction methods in detail, namely Global Average Pooling (GAP) and Random Encoding of Aggregated Deep Activation Maps (RADAM), for efficient and accurate wood species identification.<span class='px-1 mx-1 bg-yellow-200'>Our results indicate superior accuracy on diverse datasets and anatomical sections, surpassing the results of other methods. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.637</span></span>Our proposal represents a significant advancement in wood species identification, offering a robust tool to support the conservation of forest ecosystems and promote sustainable forestry practices.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.08585v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
           <td class="inline-block">
             <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-11</p>
           </td>
@@ -1902,28 +1858,6 @@
                 </p>
               <p class="pb-2 pt-2 text-center">
                 <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.07122v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-09</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                SmurfCat at SemEval-2024 Task 6: Leveraging Synthetic Data for Hallucination Detection
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>In this paper, we present our novel systems developed for the SemEval-2024 hallucination detection task.Our investigation spans a range of strategies to compare model predictions with reference standards, encompassing diverse baselines, the refinement of pre-trained encoders through supervised learning, and an ensemble approaches utilizing several high-performing models.<span class='px-1 mx-1 bg-yellow-200'>Through these explorations, we introduce three distinct methods that exhibit strong performance metrics. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.8</span></span>To amplify our training data, we generate additional training samples from unlabelled training subset.<span class='px-1 mx-1 bg-yellow-200'>Furthermore, we provide a detailed comparative analysis of our approaches. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.677</span></span>Notably, our premier method achieved a commendable 9th place in the competition's model-agnostic track and 17th place in model-aware track, highlighting its effectiveness and potential.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.06137v1' target="_blank">
                   link
                 </a>
               </p>
@@ -3462,72 +3396,6 @@
                 </p>
               <p class="pb-2 pt-2 text-center">
                 <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2403.19570v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-03-27</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Identification and Uses of Deep Learning Backbones via Pattern Mining
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Deep learning is extensively used in many areas of data mining as a black-box method with impressive results.<span class='px-1 mx-1 bg-yellow-200'>However, understanding the core mechanism of how deep learning makes predictions is a relatively understudied problem. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.505</span></span>Here we explore the notion of identifying a backbone of deep learning for a given group of instances.A group here can be instances of the same class or even misclassified instances of the same class.We view each instance for a given group as activating a subset of neurons and attempt to find a subgraph of neurons associated with a given concept/group.We formulate this problem as a set cover style problem and show it is intractable and presents a highly constrained integer linear programming (ILP) formulation.As an alternative, we explore a coverage-based heuristic approach related to pattern mining, and show it converges to a Pareto equilibrium point of the ILP formulation.Experimentally we explore these backbones to identify mistakes and improve performance, explanation, and visualization.We demonstrate application-based results using several challenging data sets, including Bird Audio Detection (BAD) Challenge and Labeled Faces in the Wild (LFW), as well as the classic MNIST data.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2403.18278v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-03-27</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Towards Non-Exemplar Semi-Supervised Class-Incremental Learning
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p><span class='px-1 mx-1 bg-yellow-200'>Deep neural networks perform remarkably well in close-world scenarios. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.532</span></span>However, novel classes emerged continually in real applications, making it necessary to learn incrementally.Class-incremental learning (CIL) aims to gradually recognize new classes while maintaining the discriminability of old ones.Existing CIL methods have two limitations: a heavy reliance on preserving old data for forgetting mitigation and the need for vast labeled data for knowledge adaptation.To overcome these issues, we propose a non-exemplar semi-supervised CIL framework with contrastive learning and semi-supervised incremental prototype classifier (Semi-IPC).On the one hand, contrastive learning helps the model learn rich representations, easing the trade-off between learning representations of new classes and forgetting that of old classes.On the other hand, Semi-IPC learns a prototype for each class with unsupervised regularization, enabling the model to incrementally learn from partially labeled new data while maintaining the knowledge of old classes.Experiments on benchmark datasets demonstrate the strong performance of our method: without storing any old samples and only using less than 1% of labels, Semi-IPC outperforms advanced exemplar-based methods.We hope our work offers new insights for future CIL research.The code will be made publicly available.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2403.18291v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-03-27</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                A thermodynamically consistent physics-informed deep learning material model for short fiber/polymer nanocomposites
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>This work proposes a physics-informed deep learning (PIDL)-based constitutive model for investigating the viscoelastic-viscoplastic behavior of short fiber-reinforced nanoparticle-filled epoxies under various ambient conditions.<span class='px-1 mx-1 bg-yellow-200'>The deep-learning model is trained to enforce thermodynamic principles, leading to a thermodynamically consistent constitutive model. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.524</span></span>To accomplish this, a long short-term memory network is combined with a feed-forward neural network to predict internal variables required for characterizing the internal dissipation of the nanocomposite materials.In addition, another feed-forward neural network is used to indicate the free-energy function, which enables defining the thermodynamic state of the entire system.The PIDL model is initially developed for the three-dimensional case by generating synthetic data from a classical constitutive model.The model is then trained by extracting the data directly from cyclic loading-unloading experimental tests.Numerical examples show that the PIDL model can accurately predict the mechanical behavior of epoxy-based nanocomposites for different volume fractions of fibers and nanoparticles under various hygrothermal conditions.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2403.18310v1' target="_blank">
                   link
                 </a>
               </p>
