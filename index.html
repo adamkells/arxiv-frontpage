@@ -19,7 +19,7 @@
           <td>
             <h1 class="text-4xl pt-4 font-bold"><span class="underline">Adam's</span> Arxiv FrontPage</h1>
             <br>
-            <p>Generated on 2024-04-24.</p><br/>
+            <p>Generated on 2024-04-25.</p><br/>
             <p class="text-sm text-gray-500 pt-2">This frontpage is made by scraping arxiv and by runnig a sentence-model that detects if the abstract describes a paper about a topic of interest. One cool feature: it all pretty much runs via Github Actions. </p>
             <br>
           </td>
@@ -29,6 +29,72 @@
             <h2 class="text-2xl tracking-tight pt-4 font-bold">New Datasets</h2>
           </td>
         </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-24</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                ImplicitAVE: An Open-Source Dataset and Multimodal LLMs Benchmark for Implicit Attribute Value Extraction
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Existing datasets for attribute value extraction (AVE) predominantly focus on explicit attribute values while neglecting the implicit ones, lack product images, are often not publicly available, and lack an in-depth human inspection across diverse domains.<span class='px-1 mx-1 bg-yellow-200'>To address these limitations, we present ImplicitAVE, the first, publicly available multimodal dataset for implicit attribute value extraction. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.781</span></span>ImplicitAVE, sourced from the MAVE dataset, is carefully curated and expanded to include implicit AVE and multimodality, resulting in a refined dataset of 68k training and 1.6k testing data across five domains.We also explore the application of multimodal large language models (MLLMs) to implicit AVE, establishing a comprehensive benchmark for MLLMs on the ImplicitAVE dataset.Six recent MLLMs with eleven variants are evaluated across diverse settings, revealing that implicit value extraction remains a challenging task for MLLMs.The contributions of this work include the development and release of ImplicitAVE, and the exploration and benchmarking of various MLLMs for implicit AVE, providing valuable insights and potential future research directions.<span class='px-1 mx-1 bg-yellow-200'>Dataset and code are available at https://github.com/HenryPengZou/ImplicitAVE <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.91</span></span></p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15592v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-23</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Large-Scale Multipurpose Benchmark Datasets For Assessing Data-Driven Deep Learning Approaches For Water Distribution Networks
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Currently, the number of common benchmark datasets that researchers can use straight away for assessing data-driven deep learning approaches is very limited.Most studies provide data as configuration files.It is still up to each practitioner to follow a particular data generation method and run computationally intensive simulations to obtain usable data for model training and evaluation.<span class='px-1 mx-1 bg-yellow-200'>In this work, we provide a collection of datasets that includes several small and medium size publicly available Water Distribution Networks (WDNs), including Anytown, Modena, Balerma, C-Town, D-Town, L-Town, Ky1, Ky6, Ky8, and Ky13. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.842</span></span>In total 1,394,400 hours of WDNs data operating under normal conditions is made available to the community.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15386v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-23</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Killkan: The Automatic Speech Recognition Dataset for Kichwa with Morphosyntactic Information
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>This paper presents Killkan, the first dataset for automatic speech recognition (ASR) in the Kichwa language, an indigenous language of Ecuador.Kichwa is an extremely low-resource endangered language, and there have been no resources before Killkan for Kichwa to be incorporated in applications of natural language processing.<span class='px-1 mx-1 bg-yellow-200'>The dataset contains approximately 4 hours of audio with transcription, translation into Spanish, and morphosyntactic annotation in the format of Universal Dependencies. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.894</span></span>The audio data was retrieved from a publicly available radio program in Kichwa.This paper also provides corpus-linguistic analyses of the dataset with a special focus on the agglutinative morphology of Kichwa and frequent code-switching with Spanish.The experiments show that the dataset makes it possible to develop the first ASR system for Kichwa with reliable quality despite its small dataset size.<span class='px-1 mx-1 bg-yellow-200'>This dataset, the ASR model, and the code used to develop them will be publicly available. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.922</span></span>Thus, our study positively showcases resource building and its applications for low-resource languages and their community.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15501v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
           <td class="inline-block">
             <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-23</p>
           </td>
@@ -541,72 +607,6 @@
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Trusted Multi-view Learning with Label Noise
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Multi-view learning methods often focus on improving decision accuracy while neglecting the decision uncertainty, which significantly restricts their applications in safety-critical applications.To address this issue, researchers propose trusted multi-view methods that learn the class distribution for each instance, enabling the estimation of classification probabilities and uncertainty.However, these methods heavily rely on high-quality ground-truth labels.This motivates us to delve into a new generalized trusted multi-view learning problem: how to develop a reliable multi-view learning model under the guidance of noisy labels?We propose a trusted multi-view noise refining method to solve this problem.We first construct view-opinions using evidential deep neural networks, which consist of belief mass vectors and uncertainty estimates.Subsequently, we design view-specific noise correlation matrices that transform the original opinions into noisy opinions aligned with the noisy labels.Considering label noises originating from low-quality data features and easily-confused classes, we ensure that the diagonal elements of these matrices are inversely proportional to the uncertainty, while incorporating class relations into the off-diagonal elements.Finally, we aggregate the noisy opinions and employ a generalized maximum likelihood loss on the aggregated opinion for model training, guided by the noisy labels.We empirically compare TMNR with state-of-the-art trusted multi-view learning and label noise learning baselines on 5 publicly available datasets.Experiment results show that TMNR outperforms baseline methods on accuracy, reliability and robustness.<span class='px-1 mx-1 bg-yellow-200'>We promise to release the code and all datasets on Github and show the link here. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.93</span></span></p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.11944v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-18</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Terrain-Aware Stride-Level Trajectory Forecasting for a Powered Hip Exoskeleton via Vision and Kinematics Fusion
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Powered hip exoskeletons have shown the ability for locomotion assistance during treadmill walking.However, providing suitable assistance in real-world walking scenarios which involve changing terrain remains challenging.Recent research suggests that forecasting the lower limb joint's angles could provide target trajectories for exoskeletons and prostheses, and the performance could be improved with visual information.<span class='px-1 mx-1 bg-yellow-200'>In this letter, We share a real-world dataset of 10 healthy subjects walking through five common types of terrain with stride-level label. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.734</span></span>We design a network called Sandwich Fusion Transformer for Image and Kinematics (SFTIK), which predicts the thigh angle of the ensuing stride given the terrain images at the beginning of the preceding and the ensuing stride and the IMU time series during the preceding stride.We introduce width-level patchify, tailored for egocentric terrain images, to reduce the computational demands.We demonstrate the proposed sandwich input and fusion mechanism could significantly improve the forecasting performance.Overall, the SFTIK outperforms baseline methods, achieving a computational efficiency of 3.31 G Flops, and root mean square error (RMSE) of 3.445 \textpm \ 0.804\textdegree \ and Pearson's correlation coefficient (PCC) of 0.971 \textpm\ 0.025.The results demonstrate that SFTIK could forecast the thigh's angle accurately with low computational cost, which could serve as a terrain adaptive trajectory planning method for hip exoskeletons.<span class='px-1 mx-1 bg-yellow-200'>Codes and data are available at https://github.com/RuoqiZhao116/SFTIK. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.85</span></span></p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.11945v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-18</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Corpus Christi: Establishing Replicability when Sharing the Bread is Not Allowed
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>In this paper, we provide practical tools to improve the scientific soundness of firmware corpora beyond the state of the art.We identify binary analysis challenges that significantly impact corpus creation.We use them to derive a framework of key corpus requirements that nurture the scientific goals of replicability and representativeness.We apply the framework to 44 top tier papers and collect 704 data points to show that there is currently no common ground on corpus creation.We discover in otherwise excellent work, that incomplete documentation and inflated corpus sizes blur visions on representativeness and hinder replicability.Our results show that the strict framework provides useful and practical guidelines that can identify miniscule step stones in corpus creation with significant impact on soundness.   Finally, we show that it is possible to meet all requirements: We provide a new corpus called LFwC.<span class='px-1 mx-1 bg-yellow-200'>It is designed for large-scale static analyses on Linux-based firmware and consists of 10,913 high-quality images, covering 2,365 network appliances. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.74</span></span><span class='px-1 mx-1 bg-yellow-200'>We share rich meta data and scripts for replicability with the community. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.74</span></span>We verify unpacking, perform deduplication, identify contents, and provide bug ground truth.We identify ISAs and Linux kernels.All samples can be unpacked with the open source tool FACT.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.11977v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-18</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
                 How far are AI-powered programming assistants from meeting developers' needs?
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
@@ -1073,6 +1073,138 @@
             <h2 class="text-2xl tracking-tight pt-4 font-bold">Benchmarks</h2>
           </td>
         </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-24</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                A Survey of Deep Long-Tail Classification Advancements
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Many data distributions in the real world are hardly uniform.Instead, skewed and long-tailed distributions of various kinds are commonly observed.This poses an interesting problem for machine learning, where most algorithms assume or work well with uniformly distributed data.The problem is further exacerbated by current state-of-the-art deep learning models requiring large volumes of training data.As such, learning from imbalanced data remains a challenging research problem and a problem that must be solved as we move towards more real-world applications of deep learning.In the context of class imbalance, state-of-the-art (SOTA) accuracies on standard benchmark datasets for classification typically fall less than 75%, even for less challenging datasets such as CIFAR100.Nonetheless, there has been progress in this niche area of deep learning.To this end, in this survey, we provide a taxonomy of various methods proposed for addressing the problem of long-tail classification, focusing on works that happened in the last few years under a single mathematical framework.<span class='px-1 mx-1 bg-yellow-200'>We also discuss standard performance metrics, convergence studies, feature distribution and classifier analysis. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.614</span></span><span class='px-1 mx-1 bg-yellow-200'>We also provide a quantitative comparison of the performance of different SOTA methods and conclude the survey by discussing the remaining challenges and future research direction. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.674</span></span></p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15593v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-24</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Variational Deep Survival Machines: Survival Regression with Censored Outcomes
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Survival regression aims to predict the time when an event of interest will take place, typically a death or a failure.A fully parametric method [18] is proposed to estimate the survival function as a mixture of individual parametric distributions in the presence of censoring.In this paper, We present a novel method to predict the survival time by better clustering the survival data and combine primitive distributions.We propose two variants of variational auto-encoder (VAE), discrete and continuous, to generate the latent variables for clustering input covariates.The model is trained end to end by jointly optimizing the VAE loss and regression loss.<span class='px-1 mx-1 bg-yellow-200'>Thorough experiments on dataset SUPPORT and FLCHAIN show that our method can effectively improve the clustering result and reach competitive scores with previous methods. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.612</span></span>We demonstrate the superior result of our model prediction in the long-term.Our code is available at https://github.com/qinzzz/auton-survival-785.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15595v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-24</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Federated Learning with Only Positive Labels by Exploring Label Correlations
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Federated learning aims to collaboratively learn a model by using the data from multiple users under privacy constraints.In this paper, we study the multi-label classification problem under the federated learning setting, where trivial solution and extremely poor performance may be obtained, especially when only positive data w.r.t.a single class label are provided for each client.This issue can be addressed by adding a specially designed regularizer on the server-side.<span class='px-1 mx-1 bg-yellow-200'>Although effective sometimes, the label correlations are simply ignored and thus sub-optimal performance may be obtained. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.73</span></span>Besides, it is expensive and unsafe to exchange user's private embeddings between server and clients frequently, especially when training model in the contrastive way.To remedy these drawbacks, we propose a novel and generic method termed Federated Averaging by exploring Label Correlations (FedALC).Specifically, FedALC estimates the label correlations in the class embedding learning for different label pairs and utilizes it to improve the model training.To further improve the safety and also reduce the communication overhead, we propose a variant to learn fixed class embedding for each client, so that the server and clients only need to exchange class embeddings once.Extensive experiments on multiple popular datasets demonstrate that our FedALC can significantly outperform existing counterparts.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15598v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-24</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                FR-NAS: Forward-and-Reverse Graph Predictor for Efficient Neural Architecture Search
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Neural Architecture Search (NAS) has emerged as a key tool in identifying optimal configurations of deep neural networks tailored to specific tasks.However, training and assessing numerous architectures introduces considerable computational overhead.One method to mitigating this is through performance predictors, which offer a means to estimate the potential of an architecture without exhaustive training.Given that neural architectures fundamentally resemble Directed Acyclic Graphs (DAGs), Graph Neural Networks (GNNs) become an apparent choice for such predictive tasks.Nevertheless, the scarcity of training data can impact the precision of GNN-based predictors.To address this, we introduce a novel GNN predictor for NAS.This predictor renders neural architectures into vector representations by combining both the conventional and inverse graph views.Additionally, we incorporate a customized training loss within the GNN predictor to ensure efficient utilization of both types of representations.<span class='px-1 mx-1 bg-yellow-200'>We subsequently assessed our method through experiments on benchmark datasets including NAS-Bench-101, NAS-Bench-201, and the DARTS search space, with a training dataset ranging from 50 to 400 samples. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.666</span></span>Benchmarked against leading GNN predictors, the experimental results showcase a significant improvement in prediction accuracy, with a 3%--16% increase in Kendall-tau correlation.Source codes are available at https://github.com/EMI-Group/fr-nas.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15622v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-23</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                ML-based identification of the interface regions for coupling local and nonlocal models
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Local-nonlocal coupling approaches combine the computational efficiency of local models and the accuracy of nonlocal models.However, the coupling process is challenging, requiring expertise to identify the interface between local and nonlocal regions.This study introduces a machine learning-based approach to automatically detect the regions in which the local and nonlocal models should be used in a coupling approach.This identification process uses the loading functions and provides as output the selected model at the grid points.Training is based on datasets of loading functions for which reference coupling configurations are computed using accurate coupled solutions, where accuracy is measured in terms of the relative error between the solution to the coupling approach and the solution to the nonlocal model.We study two approaches that differ from one another in terms of the data structure.The first approach, referred to as the full-domain input data approach, inputs the full load vector and outputs a full label vector.In this case, the classification process is carried out globally.The second approach consists of a window-based approach, where loads are preprocessed and partitioned into windows and the problem is formulated as a node-wise classification approach in which the central point of each window is treated individually.The classification problems are solved via deep learning algorithms based on convolutional neural networks.<span class='px-1 mx-1 bg-yellow-200'>The performance of these approaches is studied on one-dimensional numerical examples using F1-scores and accuracy metrics. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.738</span></span><span class='px-1 mx-1 bg-yellow-200'>In particular, it is shown that the windowing approach provides promising results, achieving an accuracy of 0.96 and an F1-score of 0.97. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.688</span></span>These results underscore the potential of the approach to automate coupling processes, leading to more accurate and computationally efficient solutions for material science applications.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15388v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-23</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Understanding Hyperbolic Metric Learning through Hard Negative Sampling
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>In recent years, there has been a growing trend of incorporating hyperbolic geometry methods into computer vision.While these methods have achieved state-of-the-art performance on various metric learning tasks using hyperbolic distance measurements, the underlying theoretical analysis supporting this superior performance remains under-exploited.In this study, we investigate the effects of integrating hyperbolic space into metric learning, particularly when training with contrastive loss.We identify a need for a comprehensive comparison between Euclidean and hyperbolic spaces regarding the temperature effect in the contrastive loss within the existing literature.To address this gap, we conduct an extensive investigation to benchmark the results of Vision Transformers (ViTs) using a hybrid objective function that combines loss from Euclidean and hyperbolic spaces.<span class='px-1 mx-1 bg-yellow-200'>Additionally, we provide a theoretical analysis of the observed performance improvement. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.717</span></span>We also reveal that hyperbolic metric learning is highly related to hard negative sampling, providing insights for future work.This work will provide valuable data points and experience in understanding hyperbolic image embeddings.To shed more light on problem-solving and encourage further investigation into our approach, our code is available online (https://github.com/YunYunY/HypMix).</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15523v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
           <td class="inline-block">
             <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-23</p>
           </td>
@@ -1805,182 +1937,6 @@
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Terrain-Aware Stride-Level Trajectory Forecasting for a Powered Hip Exoskeleton via Vision and Kinematics Fusion
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Powered hip exoskeletons have shown the ability for locomotion assistance during treadmill walking.However, providing suitable assistance in real-world walking scenarios which involve changing terrain remains challenging.Recent research suggests that forecasting the lower limb joint's angles could provide target trajectories for exoskeletons and prostheses, and the performance could be improved with visual information.In this letter, We share a real-world dataset of 10 healthy subjects walking through five common types of terrain with stride-level label.We design a network called Sandwich Fusion Transformer for Image and Kinematics (SFTIK), which predicts the thigh angle of the ensuing stride given the terrain images at the beginning of the preceding and the ensuing stride and the IMU time series during the preceding stride.We introduce width-level patchify, tailored for egocentric terrain images, to reduce the computational demands.We demonstrate the proposed sandwich input and fusion mechanism could significantly improve the forecasting performance.<span class='px-1 mx-1 bg-yellow-200'>Overall, the SFTIK outperforms baseline methods, achieving a computational efficiency of 3.31 G Flops, and root mean square error (RMSE) of 3.445 \textpm \ 0.804\textdegree \ and Pearson's correlation coefficient (PCC) of 0.971 \textpm\ 0.025. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.652</span></span>The results demonstrate that SFTIK could forecast the thigh's angle accurately with low computational cost, which could serve as a terrain adaptive trajectory planning method for hip exoskeletons.Codes and data are available at https://github.com/RuoqiZhao116/SFTIK.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.11945v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-18</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                VCC-INFUSE: Towards Accurate and Efficient Selection of Unlabeled Examples in Semi-supervised Learning
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Despite the progress of Semi-supervised Learning (SSL), existing methods fail to utilize unlabeled data effectively and efficiently.Many pseudo-label-based methods select unlabeled examples based on inaccurate confidence scores from the classifier.Most prior work also uses all available unlabeled data without pruning, making it difficult to handle large amounts of unlabeled data.To address these issues, we propose two methods: Variational Confidence Calibration (VCC) and Influence-Function-based Unlabeled Sample Elimination (INFUSE).VCC is an universal plugin for SSL confidence calibration, using a variational autoencoder to select more accurate pseudo labels based on three types of consistency scores.INFUSE is a data pruning method that constructs a core dataset of unlabeled examples under SSL.<span class='px-1 mx-1 bg-yellow-200'>Our methods are effective in multiple datasets and settings, reducing classification errors rates and saving training time. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.699</span></span>Together, VCC-INFUSE reduces the error rate of FlexMatch on the CIFAR-100 dataset by 1.08% while saving nearly half of the training time.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.11947v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-18</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Context-Aware Orchestration of Energy-Efficient Gossip Learning Schemes
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Fully distributed learning schemes such as Gossip Learning (GL) are gaining momentum due to their scalability and effectiveness even in dynamic settings.However, they often imply a high utilization of communication and computing resources, whose energy footprint may jeopardize the learning process, particularly on battery-operated IoT devices.To address this issue, we present Optimized Gossip Learning (OGL)}, a distributed training approach based on the combination of GL with adaptive optimization of the learning process, which allows for achieving a target accuracy while minimizing the energy consumption of the learning process.We propose a data-driven approach to OGL management that relies on optimizing in real-time for each node the number of training epochs and the choice of which model to exchange with neighbors based on patterns of node contacts, models' quality, and available resources at each node.Our approach employs a DNN model for dynamic tuning of the aforementioned parameters, trained by an infrastructure-based orchestrator function.We performed our assessments on two different datasets, leveraging time-varying random graphs and a measurement-based dynamic urban scenario.<span class='px-1 mx-1 bg-yellow-200'>Results suggest that our approach is highly efficient and effective in a broad spectrum of network scenarios. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.667</span></span></p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.12023v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-18</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Meta-Auxiliary Learning for Micro-Expression Recognition
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Micro-expressions (MEs) are involuntary movements revealing people's hidden feelings, which has attracted numerous interests for its objectivity in emotion detection.However, despite its wide applications in various scenarios, micro-expression recognition (MER) remains a challenging problem in real life due to three reasons, including (i) data-level: lack of data and imbalanced classes, (ii) feature-level: subtle, rapid changing, and complex features of MEs, and (iii) decision-making-level: impact of individual differences.To address these issues, we propose a dual-branch meta-auxiliary learning method, called LightmanNet, for fast and robust micro-expression recognition.Specifically, LightmanNet learns general MER knowledge from limited data through a dual-branch bi-level optimization process: (i) In the first level, it obtains task-specific MER knowledge by learning in two branches, where the first branch is for learning MER features via primary MER tasks, while the other branch is for guiding the model obtain discriminative features via auxiliary tasks, i.e., image alignment between micro-expressions and macro-expressions since their resemblance in both spatial and temporal behavioral patterns.The two branches of learning jointly constrain the model of learning meaningful task-specific MER knowledge while avoiding learning noise or superficial connections between MEs and emotions that may damage its generalization ability.(ii) In the second level, LightmanNet further refines the learned task-specific knowledge, improving model generalization and efficiency.<span class='px-1 mx-1 bg-yellow-200'>Extensive experiments on various benchmark datasets demonstrate the superior robustness and efficiency of LightmanNet. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.612</span></span></p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.12024v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-18</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Evolutionary Multi-Objective Optimisation for Fairness-Aware Self Adjusting Memory Classifiers in Data Streams
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>This paper introduces a novel approach, evolutionary multi-objective optimisation for fairness-aware self-adjusting memory classifiers, designed to enhance fairness in machine learning algorithms applied to data stream classification.With the growing concern over discrimination in algorithmic decision-making, particularly in dynamic data stream environments, there is a need for methods that ensure fair treatment of individuals across sensitive attributes like race or gender.The proposed approach addresses this challenge by integrating the strengths of the self-adjusting memory K-Nearest-Neighbour algorithm with evolutionary multi-objective optimisation.This combination allows the new approach to efficiently manage concept drift in streaming data and leverage the flexibility of evolutionary multi-objective optimisation to maximise accuracy and minimise discrimination simultaneously.<span class='px-1 mx-1 bg-yellow-200'>We demonstrate the effectiveness of the proposed approach through extensive experiments on various datasets, comparing its performance against several baseline methods in terms of accuracy and fairness metrics. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.714</span></span>Our results show that the proposed approach maintains competitive accuracy and significantly reduces discrimination, highlighting its potential as a robust solution for fairness-aware data stream classification.Further analyses also confirm the effectiveness of the strategies to trigger evolutionary multi-objective optimisation and adapt classifiers in the proposed approach.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.12076v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-18</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Effective Individual Fairest Community Search over Heterogeneous Information Networks
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Community search over heterogeneous information networks has been applied to wide domains, such as activity organization and team formation.From these scenarios, the members of a group with the same treatment often have different levels of activity and workloads, which causes unfairness in the treatment between active members and inactive members (called individual unfairness).However, existing works do not pay attention to individual fairness and do not sufficiently consider the rich semantics of HINs (e.g., high-order structure), which disables complex queries.To fill the gap, we formally define the issue of individual fairest community search over HINs (denoted as IFCS), which aims to find a set of vertices from the HIN that own the same type, close relationships, and small difference of activity level and has been demonstrated to be NP-hard.To do this, we first develop an exploration-based filter that reduces the search space of the community effectively.Further, to avoid repeating computation and prune unfair communities in advance, we propose a message-based scheme and a lower bound-based scheme.<span class='px-1 mx-1 bg-yellow-200'>At last, we conduct extensive experiments on four real-world datasets to demonstrate the effectiveness and efficiency of our proposed algorithms, which achieve at least X3 times faster than the baseline solution. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.662</span></span></p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.12107v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-18</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Shotit: compute-efficient image-to-video search engine for the cloud
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>With the rapid growth of information technology, users are exposed to a massive amount of data online, including image, music, and video.This has led to strong needs to provide effective corresponsive search services such as image, music, and video search services.Most of them are operated based on keywords, namely using keywords to find related image, music, and video.Additionally, there are image-to-image search services that enable users to find similar images using one input image.Given that videos are essentially composed of image frames, then similar videos can be searched by one input image or screenshot.<span class='px-1 mx-1 bg-yellow-200'>We want to target this scenario and provide an efficient method and implementation in this paper.    <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.626</span></span>We present Shotit, a cloud-native image-to-video search engine that tailors this search scenario in a compute-efficient approach.One main limitation faced in this scenario is the scale of its dataset.A typical image-to-image search engine only handles one-to-one relationships, colloquially, one image corresponds to another single image.But image-to-video proliferates.Take a 24-min length video as an example, it will generate roughly 20,000 image frames.As the number of videos grows, the scale of the dataset explodes exponentially.In this case, a compute-efficient approach ought to be considered, and the system design should cater to the cloud-native trend.Choosing an emerging technology - vector database as its backbone, Shotit fits these two metrics performantly.Experiments for two different datasets, a 50 thousand-scale Blender Open Movie dataset, and a 50 million-scale proprietary TV genre dataset at a 4 Core 32GB RAM Intel Xeon Gold 6271C cloud machine with object storage reveal the effectiveness of Shotit.A demo regarding the Blender Open Movie dataset is illustrated within this paper.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.12169v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-18</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Gait Recognition from Highly Compressed Videos
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Surveillance footage represents a valuable resource and opportunities for conducting gait analysis.However, the typical low quality and high noise levels in such footage can severely impact the accuracy of pose estimation algorithms, which are foundational for reliable gait analysis.Existing literature suggests a direct correlation between the efficacy of pose estimation and the subsequent gait analysis results.A common mitigation strategy involves fine-tuning pose estimation models on noisy data to improve robustness.However, this approach may degrade the downstream model's performance on the original high-quality data, leading to a trade-off that is undesirable in practice.We propose a processing pipeline that incorporates a task-targeted artifact correction model specifically designed to pre-process and enhance surveillance footage before pose estimation.Our artifact correction model is optimized to work alongside a state-of-the-art pose estimation network, HRNet, without requiring repeated fine-tuning of the pose estimation model.Furthermore, we propose a simple and robust method for obtaining low quality videos that are annotated with poses in an automatic manner with the purpose of training the artifact correction model.We systematically evaluate the performance of our artifact correction model against a range of noisy surveillance data and demonstrate that our approach not only achieves improved pose estimation on low-quality surveillance footage, but also preserves the integrity of the pose estimation on high resolution footage.<span class='px-1 mx-1 bg-yellow-200'>Our experiments show a clear enhancement in gait analysis performance, supporting the viability of the proposed method as a superior alternative to direct fine-tuning strategies. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.66</span></span>Our contributions pave the way for more reliable gait analysis using surveillance data in real-world applications, regardless of data quality.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.12183v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-18</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
                 Reducing Bias in Pre-trained Models by Tuning while Penalizing Change
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
@@ -2134,28 +2090,6 @@
           </div>
         </td>
       </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-09</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Detecting Refactoring Commits in Machine Learning Python Projects: A Machine Learning-Based Approach
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Refactoring enhances software quality without altering its functional behaviors.<span class='px-1 mx-1 bg-yellow-200'>Understanding the refactoring activities of developers is crucial to improving software maintainability. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.753</span></span>With the increasing use of machine learning (ML) libraries and frameworks, maximizing their maintainability is crucial.Due to the data-driven nature of ML projects, they often undergo different refactoring operations (e.g., data manipulation), for which existing refactoring tools lack ML-specific detection capabilities.Furthermore, a large number of ML libraries are written in Python, which has limited tools for refactoring detection.PyRef, a rule-based and state-of-the-art tool for Python refactoring detection, can identify 11 types of refactoring operations.In comparison, Rminer can detect 99 types of refactoring for Java projects.We introduce MLRefScanner, a prototype tool that applies machine-learning techniques to detect refactoring commits in ML Python projects.MLRefScanner identifies commits with both ML-specific and general refactoring operations.Evaluating MLRefScanner on 199 ML projects demonstrates its superior performance compared to state-of-the-art approaches, achieving an overall 94% precision and 82% recall.Combining it with PyRef further boosts performance to 95% precision and 99% recall.<span class='px-1 mx-1 bg-yellow-200'>Our study highlights the potential of ML-driven approaches in detecting refactoring across diverse programming languages and technical domains, addressing the limitations of rule-based detection methods. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.614</span></span></p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.06572v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
           <td></td>
           <td>
             <h2 class="text-2xl tracking-tight pt-4 font-bold">Data Annotation Techniques</h2>
@@ -2166,6 +2100,94 @@
             <h2 class="text-2xl tracking-tight pt-4 font-bold">Causality Research</h2>
           </td>
         </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-24</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Can Foundational Large Language Models Assist with Conducting Pharmaceuticals Manufacturing Investigations?
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>General purpose Large Language Models (LLM) such as the Generative Pretrained Transformer (GPT) and Large Language Model Meta AI (LLaMA) have attracted much attention in recent years.There is strong evidence that these models can perform remarkably well in various natural language processing tasks.However, how to leverage them to approach domain-specific use cases and drive value remains an open question.<span class='px-1 mx-1 bg-yellow-200'>In this work, we focus on a specific use case, pharmaceutical manufacturing investigations, and propose that leveraging historical records of manufacturing incidents and deviations in an organization can be beneficial for addressing and closing new cases, or de-risking new manufacturing campaigns. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.519</span></span>Using a small but diverse dataset of real manufacturing deviations selected from different product lines, we evaluate and quantify the power of three general purpose LLMs (GPT-3.5, GPT-4, and Claude-2) in performing tasks related to the above goal.In particular, (1) the ability of LLMs in automating the process of extracting specific information such as root cause of a case from unstructured data, as well as (2) the possibility of identifying similar or related deviations by performing semantic search on the database of historical records are examined.While our results point to the high accuracy of GPT-4 and Claude-2 in the information extraction task, we discuss cases of complex interplay between the apparent reasoning and hallucination behavior of LLMs as a risk factor.Furthermore, we show that semantic search on vector embedding of deviation descriptions can be used to identify similar records, such as those with a similar type of defect, with a high level of accuracy.We discuss further improvements to enhance the accuracy of similar record identification.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15578v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-24</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                DyGCL: Dynamic Graph Contrastive Learning For Event Prediction
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p><span class='px-1 mx-1 bg-yellow-200'>Predicting events such as political protests, flu epidemics, and criminal activities is crucial to proactively taking necessary measures and implementing required responses to address emerging challenges. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.517</span></span>Capturing contextual information from textual data for event forecasting poses significant challenges due to the intricate structure of the documents and the evolving nature of events.Recently, dynamic Graph Neural Networks (GNNs) have been introduced to capture the dynamic patterns of input text graphs.However, these models only utilize node-level representation, causing the loss of the global information from graph-level representation.On the other hand, both node-level and graph-level representations are essential for effective event prediction as node-level representation gives insight into the local structure, and the graph-level representation provides an understanding of the global structure of the temporal graph.To address these challenges, in this paper, we propose a Dynamic Graph Contrastive Learning (DyGCL) method for event prediction.Our model DyGCL employs a local view encoder to learn the evolving node representations, which effectively captures the local dynamic structure of input graphs.Additionally, it harnesses a global view encoder to perceive the hierarchical dynamic graph representation of the input graphs.Then we update the graph representations from both encoders using contrastive learning.In the final stage, DyGCL combines both representations using an attention mechanism and optimizes its capability to predict future events.Our extensive experiment demonstrates that our proposed method outperforms the baseline methods for event prediction on six real-world datasets.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15612v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-23</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Clustering of timed sequences -- Application to the analysis of care pathways
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Improving the future of healthcare starts by better understanding the current actual practices in hospitals.<span class='px-1 mx-1 bg-yellow-200'>This motivates the objective of discovering typical care pathways from patient data. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.537</span></span>Revealing homogeneous groups of care pathways can be achieved through clustering.The difficulty in clustering care pathways, represented by sequences of timestamped events, lies in defining a semantically appropriate metric and clustering algorithms.   In this article, we adapt two methods developed for time series to time sequences: the drop-DTW metric and the DBA approach for the construction of averaged time sequences.These methods are then applied in clustering algorithms to propose original and sound clustering algorithms for timed sequences.   This approach is experimented with and evaluated on synthetic and real use cases.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15379v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-23</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Towards Systematic Evaluation of Logical Reasoning Ability of Large Language Models
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Recently developed large language models (LLMs) have been shown to perform remarkably well on a wide range of language understanding tasks.But, can they really "reason" over the natural language?This question has been receiving significant research attention and many reasoning skills such as commonsense, numerical, and qualitative have been studied.However, the crucial skill pertaining to 'logical reasoning' has remained underexplored.Existing work investigating this reasoning ability of LLMs has focused only on a couple of inference rules (such as modus ponens and modus tollens) of propositional and first-order logic.Addressing the above limitation, we comprehensively evaluate the logical reasoning ability of LLMs on 25 different reasoning patterns spanning over propositional, first-order, and non-monotonic logics.To enable systematic evaluation, we introduce LogicBench, a natural language question-answering dataset focusing on the use of a single inference rule.We conduct detailed analysis with a range of LLMs such as GPT-4, ChatGPT, Gemini, Llama-2, and Mistral using chain-of-thought prompting.Experimental results show that existing LLMs do not fare well on LogicBench; especially, they struggle with instances involving complex reasoning and negations.<span class='px-1 mx-1 bg-yellow-200'>Furthermore, they sometimes overlook contextual information necessary for reasoning to arrive at the correct conclusion. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.523</span></span>We believe that our work and findings facilitate future research for evaluating and enhancing the logical reasoning ability of LLMs.Data and code are available at https://github.com/Mihir3009/LogicBench.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15522v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
           <td class="inline-block">
             <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-23</p>
           </td>
@@ -2665,94 +2687,6 @@
                 </p>
               <p class="pb-2 pt-2 text-center">
                 <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.12240v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-17</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Deep Pattern Network for Click-Through Rate Prediction
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Click-through rate (CTR) prediction tasks play a pivotal role in real-world applications, particularly in recommendation systems and online advertising.A significant research branch in this domain focuses on user behavior modeling.<span class='px-1 mx-1 bg-yellow-200'>Current research predominantly centers on modeling co-occurrence relationships between the target item and items previously interacted with by users in their historical data. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.507</span></span>However, this focus neglects the intricate modeling of user behavior patterns.In reality, the abundance of user interaction records encompasses diverse behavior patterns, indicative of a spectrum of habitual paradigms.These patterns harbor substantial potential to significantly enhance CTR prediction performance.To harness the informational potential within user behavior patterns, we extend Target Attention (TA) to Target Pattern Attention (TPA) to model pattern-level dependencies.Furthermore, three critical challenges demand attention: the inclusion of unrelated items within behavior patterns, data sparsity in behavior patterns, and computational complexity arising from numerous patterns.To address these challenges, we introduce the Deep Pattern Network (DPN), designed to comprehensively leverage information from user behavior patterns.DPN efficiently retrieves target-related user behavior patterns using a target-aware attention mechanism.Additionally, it contributes to refining user behavior patterns through a pre-training paradigm based on self-supervised learning while promoting dependency learning within sparse patterns.Our comprehensive experiments, conducted across three public datasets, substantiate the superior performance and broad compatibility of DPN.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.11456v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-17</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Retrieval-Augmented Embodied Agents
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Embodied agents operating in complex and uncertain environments face considerable challenges.While some advanced agents handle complex manipulation tasks with proficiency, their success often hinges on extensive training data to develop their capabilities.<span class='px-1 mx-1 bg-yellow-200'>In contrast, humans typically rely on recalling past experiences and analogous situations to solve new problems. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.527</span></span>Aiming to emulate this human approach in robotics, we introduce the Retrieval-Augmented Embodied Agent (RAEA).This innovative system equips robots with a form of shared memory, significantly enhancing their performance.Our approach integrates a policy retriever, allowing robots to access relevant strategies from an external policy memory bank based on multi-modal inputs.Additionally, a policy generator is employed to assimilate these strategies into the learning process, enabling robots to formulate effective responses to tasks.Extensive testing of RAEA in both simulated and real-world scenarios demonstrates its superior performance over traditional methods, representing a major leap forward in robotic technology.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.11699v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-17</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Visual Prompting for Generalized Few-shot Segmentation: A Multi-scale Approach
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>The emergence of attention-based transformer models has led to their extensive use in various tasks, due to their superior generalization and transfer properties.Recent research has demonstrated that such models, when prompted appropriately, are excellent for few-shot inference.However, such techniques are under-explored for dense prediction tasks like semantic segmentation.In this work, we examine the effectiveness of prompting a transformer-decoder with learned visual prompts for the generalized few-shot segmentation (GFSS) task.Our goal is to achieve strong performance not only on novel categories with limited examples, but also to retain performance on base categories.We propose an approach to learn visual prompts with limited examples.These learned visual prompts are used to prompt a multiscale transformer decoder to facilitate accurate dense predictions.<span class='px-1 mx-1 bg-yellow-200'>Additionally, we introduce a unidirectional causal attention mechanism between the novel prompts, learned with limited examples, and the base prompts, learned with abundant data. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.645</span></span>This mechanism enriches the novel prompts without deteriorating the base class performance.Overall, this form of prompting helps us achieve state-of-the-art performance for GFSS on two different benchmark datasets: COCO-$20^i$ and Pascal-$5^i$, without the need for test-time optimization (or transduction).Furthermore, test-time optimization leveraging unlabelled test data can be used to improve the prompts, which we refer to as transductive prompt tuning.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.11732v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-17</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Language Models Still Struggle to Zero-shot Reason about Time Series
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p><span class='px-1 mx-1 bg-yellow-200'>Time series are critical for decision-making in fields like finance and healthcare. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.509</span></span>Their importance has driven a recent influx of works passing time series into language models, leading to non-trivial forecasting on some datasets.But it remains unknown whether non-trivial forecasting implies that language models can reason about time series.To address this gap, we generate a first-of-its-kind evaluation framework for time series reasoning, including formal tasks and a corresponding dataset of multi-scale time series paired with text captions across ten domains.Using these data, we probe whether language models achieve three forms of reasoning: (1) Etiological Reasoning - given an input time series, can the language model identify the scenario that most likely created it?(2) Question Answering - can a language model answer factual questions about time series?(3) Context-Aided Forecasting - does highly relevant textual context improve a language model's time series forecasts?   We find that otherwise highly-capable language models demonstrate surprisingly limited time series reasoning: they score marginally above random on etiological and question answering tasks (up to 30 percentage points worse than humans) and show modest success in using context to improve forecasting.These weakness showcase that time series reasoning is an impactful, yet deeply underdeveloped direction for language model research.We also make our datasets and code public at to support further research in this direction at https://github.com/behavioral-data/TSandLanguage</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.11757v1' target="_blank">
                   link
                 </a>
               </p>
@@ -3277,28 +3211,6 @@
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Incorporating Explanations into Human-Machine Interfaces for Trust and Situation Awareness in Autonomous Vehicles
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Autonomous vehicles often make complex decisions via machine learning-based predictive models applied to collected sensor data.While this combination of methods provides a foundation for real-time actions, self-driving behavior primarily remains opaque to end users.<span class='px-1 mx-1 bg-yellow-200'>In this sense, explainability of real-time decisions is a crucial and natural requirement for building trust in autonomous vehicles. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.548</span></span>Moreover, as autonomous vehicles still cause serious traffic accidents for various reasons, timely conveyance of upcoming hazards to road users can help improve scene understanding and prevent potential risks.Hence, there is also a need to supply autonomous vehicles with user-friendly interfaces for effective human-machine teaming.<span class='px-1 mx-1 bg-yellow-200'>Motivated by this problem, we study the role of explainable AI and human-machine interface jointly in building trust in vehicle autonomy. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.559</span></span>We first present a broad context of the explanatory human-machine systems with the "3W1H" (what, whom, when, how) approach.Based on these findings, we present a situation awareness framework for calibrating users' trust in self-driving behavior.Finally, we perform an experiment on our framework, conduct a user study on it, and validate the empirical findings with hypothesis testing.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.07383v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-10</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
                 CGNSDE: Conditional Gaussian Neural Stochastic Differential Equation for Modeling Complex Systems and Data Assimilation
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
@@ -3359,21 +3271,26 @@
           </div>
         </td>
       </tr><tr>
+          <td></td>
+          <td>
+            <h2 class="text-2xl tracking-tight pt-4 font-bold">Ethics Research</h2>
+          </td>
+        </tr><tr>
           <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-09</p>
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-23</p>
           </td>
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                pfl-research: simulation framework for accelerating research in Private Federated Learning
+                WANDR: Intention-guided Human Motion Generation
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
                 <div class="text-center pt-2"></div>
                 <p class="pt-2">
-                  <p>Federated learning (FL) is an emerging machine learning (ML) training paradigm where clients own their data and collaborate to train a global model, without revealing any data to the server and other participants.Researchers commonly perform experiments in a simulation environment to quickly iterate on ideas.However, existing open-source tools do not offer the efficiency required to simulate FL on larger and more realistic FL datasets.We introduce pfl-research, a fast, modular, and easy-to-use Python framework for simulating FL.<span class='px-1 mx-1 bg-yellow-200'>It supports TensorFlow, PyTorch, and non-neural network models, and is tightly integrated with state-of-the-art privacy algorithms. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.513</span></span>We study the speed of open-source FL frameworks and show that pfl-research is 7-72$\times$ faster than alternative open-source frameworks on common cross-device setups.Such speedup will significantly boost the productivity of the FL research community and enable testing hypotheses on realistic FL datasets that were previously too resource intensive.We release a suite of benchmarks that evaluates an algorithm's overall performance on a diverse set of realistic scenarios.The code is available on GitHub at https://github.com/apple/pfl-research.</p>
+                  <p><span class='px-1 mx-1 bg-yellow-200'>Synthesizing natural human motions that enable a 3D human avatar to walk and reach for arbitrary goals in 3D space remains an unsolved problem with many applications. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.516</span></span>Existing methods (data-driven or using reinforcement learning) are limited in terms of generalization and motion naturalness.A primary obstacle is the scarcity of training data that combines locomotion with goal reaching.To address this, we introduce WANDR, a data-driven model that takes an avatar's initial pose and a goal's 3D position and generates natural human motions that place the end effector (wrist) on the goal location.To solve this, we introduce novel intention features that drive rich goal-oriented movement.<span class='px-1 mx-1 bg-yellow-200'>Intention guides the agent to the goal, and interactively adapts the generation to novel situations without needing to define sub-goals or the entire motion path. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.52</span></span>Crucially, intention allows training on datasets that have goal-oriented motions as well as those that do not.WANDR is a conditional Variational Auto-Encoder (c-VAE), which we train using the AMASS and CIRCLE datasets.We evaluate our method extensively and demonstrate its ability to generate natural and long-term motions that reach 3D goals and generalize to unseen goal locations.Our models and code are available for research purposes at wandr.is.tue.mpg.de.</p>
                 </p>
               <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.06430v1' target="_blank">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15383v1' target="_blank">
                   link
                 </a>
               </p>
@@ -3381,11 +3298,50 @@
           </div>
         </td>
       </tr><tr>
-          <td></td>
-          <td>
-            <h2 class="text-2xl tracking-tight pt-4 font-bold">Ethics Research</h2>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-23</p>
           </td>
-        </tr><tr>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Introduction to Eye Tracking: A Hands-On Tutorial for Students and Practitioners
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Eye-tracking technology is widely used in various application areas such as psychology, neuroscience, marketing, and human-computer interaction, as it is a valuable tool for understanding how people process information and interact with their environment.This tutorial provides a comprehensive introduction to eye tracking, from the basics of eye anatomy and physiology to the principles and applications of different eye-tracking systems.The guide is designed to provide a hands-on learning experience for everyone interested in working with eye-tracking technology.Therefore, we include practical case studies to teach students and professionals how to effectively set up and operate an eye-tracking system.The tutorial covers a variety of eye-tracking systems, calibration techniques, data collection, and analysis methods, including fixations, saccades, pupil diameter, and visual scan path analysis.<span class='px-1 mx-1 bg-yellow-200'>In addition, we emphasize the importance of considering ethical aspects when conducting eye-tracking research and experiments, especially informed consent and participant privacy. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.585</span></span>We aim to give the reader a solid understanding of basic eye-tracking principles and the practical skills needed to conduct their experiments.Python-based code snippets and illustrative examples are included in the tutorials and can be downloaded at: https://gitlab.lrz.de/hctl/Eye-Tracking-Tutorial.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15435v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-23</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                BattleAgent: Multi-modal Dynamic Emulation on Historical Battles to Complement Historical Analysis
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>This paper presents BattleAgent, an emulation system that combines the Large Vision-Language Model and Multi-agent System.<span class='px-1 mx-1 bg-yellow-200'>This novel system aims to simulate complex dynamic interactions among multiple agents, as well as between agents and their environments, over a period of time. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.52</span></span>It emulates both the decision-making processes of leaders and the viewpoints of ordinary participants, such as soldiers.The emulation showcases the current capabilities of agents, featuring fine-grained multi-modal interactions between agents and landscapes.It develops customizable agent structures to meet specific situational requirements, for example, a variety of battle-related activities like scouting and trench digging.These components collaborate to recreate historical events in a lively and comprehensive manner while offering insights into the thoughts and feelings of individuals from diverse viewpoints.The technological foundations of BattleAgent establish detailed and immersive settings for historical battles, enabling individual agents to partake in, observe, and dynamically respond to evolving battle scenarios.This methodology holds the potential to substantially deepen our understanding of historical events, particularly through individual accounts.Such initiatives can also aid historical research, as conventional historical narratives often lack documentation and prioritize the perspectives of decision-makers, thereby overlooking the experiences of ordinary individuals.<span class='px-1 mx-1 bg-yellow-200'>BattelAgent illustrates AI's potential to revitalize the human aspect in crucial social events, thereby fostering a more nuanced collective understanding and driving the progressive development of human society. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.691</span></span></p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.15532v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
           <td class="inline-block">
             <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-23</p>
           </td>
@@ -4039,72 +3995,6 @@
                 </p>
               <p class="pb-2 pt-2 text-center">
                 <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.12292v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-17</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Embedding Privacy in Computational Social Science and Artificial Intelligence Research
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p><span class='px-1 mx-1 bg-yellow-200'>Privacy is a human right. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.585</span></span>It ensures that individuals are free to engage in discussions, participate in groups, and form relationships online or offline without fear of their data being inappropriately harvested, analyzed, or otherwise used to harm them.<span class='px-1 mx-1 bg-yellow-200'>Preserving privacy has emerged as a critical factor in research, particularly in the computational social science (CSS), artificial intelligence (AI) and data science domains, given their reliance on individuals' data for novel insights. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.626</span></span><span class='px-1 mx-1 bg-yellow-200'>The increasing use of advanced computational models stands to exacerbate privacy concerns because, if inappropriately used, they can quickly infringe privacy rights and lead to adverse effects for individuals - especially vulnerable groups - and society. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.558</span></span>We have already witnessed a host of privacy issues emerge with the advent of large language models (LLMs), such as ChatGPT, which further demonstrate the importance of embedding privacy from the start.<span class='px-1 mx-1 bg-yellow-200'>This article contributes to the field by discussing the role of privacy and the primary issues that researchers working in CSS, AI, data science and related domains are likely to face. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.578</span></span>It then presents several key considerations for researchers to ensure participant privacy is best preserved in their research design, data collection and use, analysis, and dissemination of research results.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.11515v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-17</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Retrieval-Augmented Embodied Agents
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p><span class='px-1 mx-1 bg-yellow-200'>Embodied agents operating in complex and uncertain environments face considerable challenges. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.517</span></span>While some advanced agents handle complex manipulation tasks with proficiency, their success often hinges on extensive training data to develop their capabilities.In contrast, humans typically rely on recalling past experiences and analogous situations to solve new problems.Aiming to emulate this human approach in robotics, we introduce the Retrieval-Augmented Embodied Agent (RAEA).This innovative system equips robots with a form of shared memory, significantly enhancing their performance.Our approach integrates a policy retriever, allowing robots to access relevant strategies from an external policy memory bank based on multi-modal inputs.Additionally, a policy generator is employed to assimilate these strategies into the learning process, enabling robots to formulate effective responses to tasks.Extensive testing of RAEA in both simulated and real-world scenarios demonstrates its superior performance over traditional methods, representing a major leap forward in robotic technology.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.11699v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-04-17</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Implementation and Evaluation of a Gradient Descent-Trained Defensible Blackboard Architecture System
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p><span class='px-1 mx-1 bg-yellow-200'>A variety of forms of artificial intelligence systems have been developed. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.591</span></span>Two well-known techniques are neural networks and rule-fact expert systems.The former can be trained from presented data while the latter is typically developed by human domain experts.A combined implementation that uses gradient descent to train a rule-fact expert system has been previously proposed.A related system type, the Blackboard Architecture, adds an actualization capability to expert systems.This paper proposes and evaluates the incorporation of a defensible-style gradient descent training capability into the Blackboard Architecture.It also introduces the use of activation functions for defensible artificial intelligence systems and implements and evaluates a new best path-based training algorithm.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2404.11714v1' target="_blank">
                   link
                 </a>
               </p>
