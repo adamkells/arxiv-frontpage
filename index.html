@@ -19,7 +19,7 @@
           <td>
             <h1 class="text-4xl pt-4 font-bold"><span class="underline">Adam's</span> Arxiv FrontPage</h1>
             <br>
-            <p>Generated on 2024-08-02.</p><br/>
+            <p>Generated on 2024-08-03.</p><br/>
             <p class="text-sm text-gray-500 pt-2">This frontpage is made by scraping arxiv and by runnig a sentence-model that detects if the abstract describes a paper about a topic of interest. One cool feature: it all pretty much runs via Github Actions. </p>
             <br>
           </td>
@@ -277,28 +277,6 @@
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Understanding Public Safety Trends in Calgary through data mining
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p><span class='px-1 mx-1 bg-yellow-200'>This paper utilizes statistical data from various open datasets in Calgary to to uncover patterns and insights for community crimes, disorders, and traffic incidents. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.71</span></span>Community attributes like demographics, housing, and pet registration were collected and analyzed through geospatial visualization and correlation analysis.Strongly correlated features were identified using the chi-square test, and predictive models were built using association rule mining and machine learning algorithms.The findings suggest that crime rates are closely linked to factors such as population density, while pet registration has a smaller impact.This study offers valuable insights for city managers to enhance community safety strategies.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.21163v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-07-30</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
                 Abusive Speech Detection in Indic Languages Using Acoustic Features
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
@@ -352,6 +330,28 @@
                 </p>
               <p class="pb-2 pt-2 text-center">
                 <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.20950v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-07-30</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Understanding Public Safety Trends in Calgary through data mining
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p><span class='px-1 mx-1 bg-yellow-200'>This paper utilizes statistical data from various open datasets in Calgary to to uncover patterns and insights for community crimes, disorders, and traffic incidents. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.71</span></span>Community attributes like demographics, housing, and pet registration were collected and analyzed through geospatial visualization and correlation analysis.Strongly correlated features were identified using the chi-square test, and predictive models were built using association rule mining and machine learning algorithms.The findings suggest that crime rates are closely linked to factors such as population density, while pet registration has a smaller impact.This study offers valuable insights for city managers to enhance community safety strategies.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.21163v1' target="_blank">
                   link
                 </a>
               </p>
@@ -854,15 +854,15 @@
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Embedding Space Selection for Detecting Memorization and Fingerprinting in Generative Models
+                dopanim: A Dataset of Doppelganger Animals with Noisy Annotations from Multiple Humans
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
                 <div class="text-center pt-2"></div>
                 <p class="pt-2">
-                  <p>In the rapidly evolving landscape of artificial intelligence, generative models such as Generative Adversarial Networks (GANs) and Diffusion Models have become cornerstone technologies, driving innovation in diverse fields from art creation to healthcare.Despite their potential, these models face the significant challenge of data memorization, which poses risks to privacy and the integrity of generated content.Among various metrics of memorization detection, our study delves into the memorization scores calculated from encoder layer embeddings, which involves measuring distances between samples in the embedding spaces.Particularly, we find that the memorization scores calculated from layer embeddings of Vision Transformers (ViTs) show an notable trend - the latter (deeper) the layer, the less the memorization measured.It has been found that the memorization scores from the early layers' embeddings are more sensitive to low-level memorization (e.g. colors and simple patterns for an image), while those from the latter layers are more sensitive to high-level memorization (e.g. semantic meaning of an image).We also observe that, for a specific model architecture, its degree of memorization on different levels of information is unique.It can be viewed as an inherent property of the architecture.Building upon this insight, we introduce a unique fingerprinting methodology.This method capitalizes on the unique distributions of the memorization score across different layers of ViTs, providing a novel approach to identifying models involved in generating deepfakes and malicious content.<span class='px-1 mx-1 bg-yellow-200'>Our approach demonstrates a marked 30% enhancement in identification accuracy over existing baseline methods, offering a more effective tool for combating digital misinformation. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.744</span></span></p>
+                  <p>Human annotators typically provide annotated data for training machine learning models, such as neural networks.<span class='px-1 mx-1 bg-yellow-200'>Yet, human annotations are subject to noise, impairing generalization performances. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.644</span></span><span class='px-1 mx-1 bg-yellow-200'>Methodological research on approaches counteracting noisy annotations requires corresponding datasets for a meaningful empirical evaluation. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.802</span></span>Consequently, we introduce a novel benchmark dataset, dopanim, consisting of about 15,750 animal images of 15 classes with ground truth labels.For approximately 10,500 of these images, 20 humans provided over 52,000 annotations with an accuracy of circa 67%.Its key attributes include (1) the challenging task of classifying doppelganger animals, (2) human-estimated likelihoods as annotations, and (3) annotator metadata.We benchmark well-known multi-annotator learning approaches using seven variants of this dataset and outline further evaluation use cases such as learning beyond hard class labels and active learning.Our dataset and a comprehensive codebase are publicly available to emulate the data collection process and to reproduce all empirical results.</p>
                 </p>
               <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.21159v1' target="_blank">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.20950v1' target="_blank">
                   link
                 </a>
               </p>
@@ -876,15 +876,15 @@
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                dopanim: A Dataset of Doppelganger Animals with Noisy Annotations from Multiple Humans
+                Embedding Space Selection for Detecting Memorization and Fingerprinting in Generative Models
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
                 <div class="text-center pt-2"></div>
                 <p class="pt-2">
-                  <p>Human annotators typically provide annotated data for training machine learning models, such as neural networks.<span class='px-1 mx-1 bg-yellow-200'>Yet, human annotations are subject to noise, impairing generalization performances. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.644</span></span><span class='px-1 mx-1 bg-yellow-200'>Methodological research on approaches counteracting noisy annotations requires corresponding datasets for a meaningful empirical evaluation. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.802</span></span>Consequently, we introduce a novel benchmark dataset, dopanim, consisting of about 15,750 animal images of 15 classes with ground truth labels.For approximately 10,500 of these images, 20 humans provided over 52,000 annotations with an accuracy of circa 67%.Its key attributes include (1) the challenging task of classifying doppelganger animals, (2) human-estimated likelihoods as annotations, and (3) annotator metadata.We benchmark well-known multi-annotator learning approaches using seven variants of this dataset and outline further evaluation use cases such as learning beyond hard class labels and active learning.Our dataset and a comprehensive codebase are publicly available to emulate the data collection process and to reproduce all empirical results.</p>
+                  <p>In the rapidly evolving landscape of artificial intelligence, generative models such as Generative Adversarial Networks (GANs) and Diffusion Models have become cornerstone technologies, driving innovation in diverse fields from art creation to healthcare.Despite their potential, these models face the significant challenge of data memorization, which poses risks to privacy and the integrity of generated content.Among various metrics of memorization detection, our study delves into the memorization scores calculated from encoder layer embeddings, which involves measuring distances between samples in the embedding spaces.Particularly, we find that the memorization scores calculated from layer embeddings of Vision Transformers (ViTs) show an notable trend - the latter (deeper) the layer, the less the memorization measured.It has been found that the memorization scores from the early layers' embeddings are more sensitive to low-level memorization (e.g. colors and simple patterns for an image), while those from the latter layers are more sensitive to high-level memorization (e.g. semantic meaning of an image).We also observe that, for a specific model architecture, its degree of memorization on different levels of information is unique.It can be viewed as an inherent property of the architecture.Building upon this insight, we introduce a unique fingerprinting methodology.This method capitalizes on the unique distributions of the memorization score across different layers of ViTs, providing a novel approach to identifying models involved in generating deepfakes and malicious content.<span class='px-1 mx-1 bg-yellow-200'>Our approach demonstrates a marked 30% enhancement in identification accuracy over existing baseline methods, offering a more effective tool for combating digital misinformation. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.744</span></span></p>
                 </p>
               <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.20950v1' target="_blank">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.21159v1' target="_blank">
                   link
                 </a>
               </p>
@@ -2766,6 +2766,28 @@
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Productive self/vulnerable body: self-tracking, overworking culture, and conflicted data practices
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Self-tracking, the collection, analysis, and interpretation of personal data, signifies an individualized way of health governance as people are demanded to build a responsible self by internalizing norms.<span class='px-1 mx-1 bg-yellow-200'>However, the technological promises often bear conflicts with various social factors such as a strenuous schedule, a lack of motivation, stress, and anxieties, which fail to deliver health outcomes. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.553</span></span>To re-problematize the phenomenon, this paper situates self-tracking in an overworking culture in China and draws on semi structured and in depth interviews with overworking individuals to reveal the patterns in users interactions and interpretations with self-tracking data.It builds on the current literature of self-tracking and engages with theories from Science and Technology Studies, especially sociomaterial assemblages (Lupton 2016) and technological mediation (Verbeek 2005), to study self-tracking in a contextualized way which connects the micro (data reading, visualization, and affective elements in design) with the macro (work and workplaces, socioeconomic and political background) contexts of self-tracking.Drawing on investigation of the social context that users of self-tracking technologies internalize, reflect, or resist, the paper argues that the productivity and value oriented assumptions and workplace culture shape the imaginary of intensive (and sometimes impossible) self-care and health, an involution of competence embedded in the technological design and users affective experiences.Users respond by enacting different design elements and social contexts to frame two distinctive data practices of self-tracking.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.17618v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-07-24</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
                 On the Parameter Identifiability of Partially Observed Linear Causal Models
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
@@ -2885,28 +2907,6 @@
                 </p>
               <p class="pb-2 pt-2 text-center">
                 <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.17459v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-07-24</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Productive self/vulnerable body: self-tracking, overworking culture, and conflicted data practices
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Self-tracking, the collection, analysis, and interpretation of personal data, signifies an individualized way of health governance as people are demanded to build a responsible self by internalizing norms.<span class='px-1 mx-1 bg-yellow-200'>However, the technological promises often bear conflicts with various social factors such as a strenuous schedule, a lack of motivation, stress, and anxieties, which fail to deliver health outcomes. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.553</span></span>To re-problematize the phenomenon, this paper situates self-tracking in an overworking culture in China and draws on semi structured and in depth interviews with overworking individuals to reveal the patterns in users interactions and interpretations with self-tracking data.It builds on the current literature of self-tracking and engages with theories from Science and Technology Studies, especially sociomaterial assemblages (Lupton 2016) and technological mediation (Verbeek 2005), to study self-tracking in a contextualized way which connects the micro (data reading, visualization, and affective elements in design) with the macro (work and workplaces, socioeconomic and political background) contexts of self-tracking.Drawing on investigation of the social context that users of self-tracking technologies internalize, reflect, or resist, the paper argues that the productivity and value oriented assumptions and workplace culture shape the imaginary of intensive (and sometimes impossible) self-care and health, an involution of competence embedded in the technological design and users affective experiences.Users respond by enacting different design elements and social contexts to frame two distinctive data practices of self-tracking.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.17618v1' target="_blank">
                   link
                 </a>
               </p>
@@ -3810,72 +3810,6 @@
           <td>
             <div x-data="{open: false}">
               <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Zero Shot Health Trajectory Prediction Using Transformer
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Integrating modern machine learning and clinical decision-making has great promise for mitigating healthcare's increasing cost and complexity.We introduce the Enhanced Transformer for Health Outcome Simulation (ETHOS), a novel application of the transformer deep-learning architecture for analyzing high-dimensional, heterogeneous, and episodic health data.ETHOS is trained using Patient Health Timelines (PHTs)-detailed, tokenized records of health events-to predict future health trajectories, leveraging a zero-shot learning approach.ETHOS represents a significant advancement in foundation model development for healthcare analytics, eliminating the need for labeled data and model fine-tuning.Its ability to simulate various treatment pathways and consider patient-specific factors positions ETHOS as a tool for care optimization and addressing biases in healthcare delivery.Future developments will expand ETHOS' capabilities to incorporate a wider range of data types and data sources.<span class='px-1 mx-1 bg-yellow-200'>Our work demonstrates a pathway toward accelerated AI development and deployment in healthcare. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.66</span></span></p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.21124v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-07-30</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                Embedding Space Selection for Detecting Memorization and Fingerprinting in Generative Models
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p><span class='px-1 mx-1 bg-yellow-200'>In the rapidly evolving landscape of artificial intelligence, generative models such as Generative Adversarial Networks (GANs) and Diffusion Models have become cornerstone technologies, driving innovation in diverse fields from art creation to healthcare. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.529</span></span>Despite their potential, these models face the significant challenge of data memorization, which poses risks to privacy and the integrity of generated content.Among various metrics of memorization detection, our study delves into the memorization scores calculated from encoder layer embeddings, which involves measuring distances between samples in the embedding spaces.Particularly, we find that the memorization scores calculated from layer embeddings of Vision Transformers (ViTs) show an notable trend - the latter (deeper) the layer, the less the memorization measured.It has been found that the memorization scores from the early layers' embeddings are more sensitive to low-level memorization (e.g. colors and simple patterns for an image), while those from the latter layers are more sensitive to high-level memorization (e.g. semantic meaning of an image).We also observe that, for a specific model architecture, its degree of memorization on different levels of information is unique.It can be viewed as an inherent property of the architecture.Building upon this insight, we introduce a unique fingerprinting methodology.This method capitalizes on the unique distributions of the memorization score across different layers of ViTs, providing a novel approach to identifying models involved in generating deepfakes and malicious content.Our approach demonstrates a marked 30% enhancement in identification accuracy over existing baseline methods, offering a more effective tool for combating digital misinformation.</p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.21159v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-07-30</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
-                AI Safety in Practice: Enhancing Adversarial Robustness in Multimodal Image Captioning
-              </span>
-              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
-                <div class="text-center pt-2"></div>
-                <p class="pt-2">
-                  <p>Multimodal machine learning models that combine visual and textual data are increasingly being deployed in critical applications, raising significant safety and security concerns due to their vulnerability to adversarial attacks.This paper presents an effective strategy to enhance the robustness of multimodal image captioning models against such attacks.By leveraging the Fast Gradient Sign Method (FGSM) to generate adversarial examples and incorporating adversarial training techniques, we demonstrate improved model robustness on two benchmark datasets: Flickr8k and COCO.Our findings indicate that selectively training only the text decoder of the multimodal architecture shows performance comparable to full adversarial training while offering increased computational efficiency.<span class='px-1 mx-1 bg-yellow-200'>This targeted approach suggests a balance between robustness and training costs, facilitating the ethical deployment of multimodal AI systems across various domains. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.739</span></span></p>
-                </p>
-              <p class="pb-2 pt-2 text-center">
-                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.21174v1' target="_blank">
-                  link
-                </a>
-              </p>
-            </div>
-          </div>
-        </td>
-      </tr><tr>
-          <td class="inline-block">
-            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-07-30</p>
-          </td>
-          <td>
-            <div x-data="{open: false}">
-              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
                 The Future of International Data Transfers: Managing Legal Risk with a User-Held Data Model
               </span>
               <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
@@ -3973,6 +3907,72 @@
                 </p>
               <p class="pb-2 pt-2 text-center">
                 <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.21010v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-07-30</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Zero Shot Health Trajectory Prediction Using Transformer
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Integrating modern machine learning and clinical decision-making has great promise for mitigating healthcare's increasing cost and complexity.We introduce the Enhanced Transformer for Health Outcome Simulation (ETHOS), a novel application of the transformer deep-learning architecture for analyzing high-dimensional, heterogeneous, and episodic health data.ETHOS is trained using Patient Health Timelines (PHTs)-detailed, tokenized records of health events-to predict future health trajectories, leveraging a zero-shot learning approach.ETHOS represents a significant advancement in foundation model development for healthcare analytics, eliminating the need for labeled data and model fine-tuning.Its ability to simulate various treatment pathways and consider patient-specific factors positions ETHOS as a tool for care optimization and addressing biases in healthcare delivery.Future developments will expand ETHOS' capabilities to incorporate a wider range of data types and data sources.<span class='px-1 mx-1 bg-yellow-200'>Our work demonstrates a pathway toward accelerated AI development and deployment in healthcare. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.66</span></span></p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.21124v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-07-30</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                Embedding Space Selection for Detecting Memorization and Fingerprinting in Generative Models
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p><span class='px-1 mx-1 bg-yellow-200'>In the rapidly evolving landscape of artificial intelligence, generative models such as Generative Adversarial Networks (GANs) and Diffusion Models have become cornerstone technologies, driving innovation in diverse fields from art creation to healthcare. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.529</span></span>Despite their potential, these models face the significant challenge of data memorization, which poses risks to privacy and the integrity of generated content.Among various metrics of memorization detection, our study delves into the memorization scores calculated from encoder layer embeddings, which involves measuring distances between samples in the embedding spaces.Particularly, we find that the memorization scores calculated from layer embeddings of Vision Transformers (ViTs) show an notable trend - the latter (deeper) the layer, the less the memorization measured.It has been found that the memorization scores from the early layers' embeddings are more sensitive to low-level memorization (e.g. colors and simple patterns for an image), while those from the latter layers are more sensitive to high-level memorization (e.g. semantic meaning of an image).We also observe that, for a specific model architecture, its degree of memorization on different levels of information is unique.It can be viewed as an inherent property of the architecture.Building upon this insight, we introduce a unique fingerprinting methodology.This method capitalizes on the unique distributions of the memorization score across different layers of ViTs, providing a novel approach to identifying models involved in generating deepfakes and malicious content.Our approach demonstrates a marked 30% enhancement in identification accuracy over existing baseline methods, offering a more effective tool for combating digital misinformation.</p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.21159v1' target="_blank">
+                  link
+                </a>
+              </p>
+            </div>
+          </div>
+        </td>
+      </tr><tr>
+          <td class="inline-block">
+            <p class='font-bold text-black px-2 mx-1 text-xs w-24'>2024-07-30</p>
+          </td>
+          <td>
+            <div x-data="{open: false}">
+              <span @click="open = ! open" class="hover:underline cursor-pointer decoration-2 decoration-green-600 text-gray-800 text-sm">
+                AI Safety in Practice: Enhancing Adversarial Robustness in Multimodal Image Captioning
+              </span>
+              <div x-show="open" x-collapse.duration.500ms class="text-sm text-gray-500 pt-2">
+                <div class="text-center pt-2"></div>
+                <p class="pt-2">
+                  <p>Multimodal machine learning models that combine visual and textual data are increasingly being deployed in critical applications, raising significant safety and security concerns due to their vulnerability to adversarial attacks.This paper presents an effective strategy to enhance the robustness of multimodal image captioning models against such attacks.By leveraging the Fast Gradient Sign Method (FGSM) to generate adversarial examples and incorporating adversarial training techniques, we demonstrate improved model robustness on two benchmark datasets: Flickr8k and COCO.Our findings indicate that selectively training only the text decoder of the multimodal architecture shows performance comparable to full adversarial training while offering increased computational efficiency.<span class='px-1 mx-1 bg-yellow-200'>This targeted approach suggests a balance between robustness and training costs, facilitating the ethical deployment of multimodal AI systems across various domains. <span style='font-size: 0.65rem;' class='text-purple-500 font-bold'>0.739</span></span></p>
+                </p>
+              <p class="pb-2 pt-2 text-center">
+                <a class="underline decoration-2 text-green-600 text-md pt-2" href='http://arxiv.org/abs/2407.21174v1' target="_blank">
                   link
                 </a>
               </p>
